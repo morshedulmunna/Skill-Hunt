@@ -1,3 +1,4 @@
+import { filterJobs, getJobList } from "@/actions/action";
 import JobCard from "@/components/JobCard";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 import { GetServerSideProps, NextPage } from "next";
@@ -9,7 +10,20 @@ type Props = {
 const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
   const { query, location, category } = await searchParams;
 
-  console.log(query, location, category);
+  let jobList = [] as [];
+
+  try {
+    jobList = (await getJobList()).results as [];
+
+    // Filter jobs based on query, location, and category
+    if (query || location || category) {
+      jobList = (await filterJobs({ query, location, category })).results as [];
+    }
+  } catch (error) {
+    console.error("Failed to fetch job list:", error);
+  }
+
+  console.log(jobList);
 
   return (
     <>
@@ -20,8 +34,8 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
           </div>
           <div className="col-span-7  gap-2 ">
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2">
-              {[].map((each, index) => (
-                <JobCard job={{}} />
+              {jobList.map((each, index) => (
+                <JobCard job={each} key={index} />
               ))}
             </div>
           </div>

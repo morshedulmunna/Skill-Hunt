@@ -1,20 +1,20 @@
 import React from "react";
 
-// interface JobCardProps {
-//   job: {
-//     id: string;
-//     title: string;
-//     company: {
-//       name: string;
-//     };
-//     description: string;
-//     degree: string;
-//     type: string[];
-//     salary: string;
-//     timePosted: string;
-//   };
-//   selectJobId: string;
-// }
+interface JobCardProps {
+  job: {
+    id: string;
+    title: string;
+    company: {
+      name: string;
+    };
+    description: string;
+    degree: string;
+    type: string[];
+    salary: string;
+    timePosted: string;
+  };
+  selectJobId: string;
+}
 
 const JobCard: React.FC<any> = ({ job, selectJobId }) => {
   const { id, title, company, description, degree, type, salary, timePosted } =
