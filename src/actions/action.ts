@@ -95,7 +95,6 @@ export const filterJobs = async (filters: {
       "assets",
       "job-data.json"
     );
-    console.log(filters.query);
 
     // Read Data from JSON File
     const fileData = await fs.readFile(filePath, "utf-8");
@@ -110,19 +109,14 @@ export const filterJobs = async (filters: {
         (job.title.toLowerCase().includes(filters.query.toLowerCase()) ||
           job.description.toLowerCase().includes(filters.query.toLowerCase()));
 
-      console.log(queryMatch);
       const locationMatch =
         !filters.location ||
         job.details.location
           .toLowerCase()
           .includes(filters.location.toLowerCase());
 
-      console.log(locationMatch);
-
       const categoryMatch =
         !filters.category || job.type.includes(filters.category);
-
-      console.log(categoryMatch);
 
       // Return true if all filters match
       return queryMatch || locationMatch || categoryMatch;
