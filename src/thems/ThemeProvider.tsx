@@ -20,8 +20,8 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
 
     if (storedTheme) setTheme(storedTheme);
     //checking prefers theme
-    else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
+    else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+      setTheme("light");
     }
   }, []);
 
