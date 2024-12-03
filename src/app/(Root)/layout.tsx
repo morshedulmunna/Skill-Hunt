@@ -8,8 +8,7 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <>
-      <Navbar />
-      <div>{children}</div>
+      <>{children}</>
     </>
   );
 }

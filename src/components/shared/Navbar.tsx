@@ -13,7 +13,7 @@ export default function Navbar(): JSX.Element {
   const navItems: NavItem[] = [
     {
       label: "Find a Job",
-      href: "/find-jobs",
+      href: "/job-search",
     },
     {
       label: "About",

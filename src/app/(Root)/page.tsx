@@ -1,3 +1,4 @@
+import FeaturesJobCarousel from "@/components/FeaturesJobCarousel";
 import HeroSection from "@/components/HeroSection";
 import SearchingSection from "@/components/SearchingSection";
 import { CircularShapes } from "@/components/shapes/CircularShapes";
@@ -22,6 +23,10 @@ export default function Home(): React.ReactElement {
         <BoxWrapper className="w-full mx-auto   flex items-center justify-start p-3  h-auto border-gray-100/90  relative z-20 ">
           <SearchingSection />
         </BoxWrapper>
+      </MaxWidthWrapper>
+
+      <MaxWidthWrapper className="mt-24">
+        <FeaturesJobCarousel />
       </MaxWidthWrapper>
     </div>
   );
