@@ -13,17 +13,15 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
   let jobList = [] as [];
 
   try {
-    jobList = (await getJobList()).results as [];
-
     // Filter jobs based on query, location, and category
     if (query || location || category) {
       jobList = (await filterJobs({ query, location, category })).results as [];
+    } else {
+      jobList = (await getJobList()).results as [];
     }
   } catch (error) {
     console.error("Failed to fetch job list:", error);
   }
-
-  console.log(jobList);
 
   return (
     <>

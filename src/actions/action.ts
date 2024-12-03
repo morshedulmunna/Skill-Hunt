@@ -7,9 +7,13 @@ type JobListResponse = {
   results?: any[] | {};
   success: boolean;
   statusCode: number;
+  pagination?: {};
 };
 
-export const getJobList = (): Promise<JobListResponse> => {
+export const getJobList = (
+  page: number = 1,
+  limit: number = 10
+): Promise<JobListResponse> => {
   return new Promise((resolve, reject) => {
     try {
       const filePath = path.join(
@@ -24,11 +28,24 @@ export const getJobList = (): Promise<JobListResponse> => {
           // Parse JSON data
           const data = JSON.parse(fileData);
 
+          // Calculate start and end indices for pagination
+          const startIndex = (page - 1) * limit;
+          const endIndex = page * limit;
+
+          // Get the paginated data
+          const paginatedData = data.slice(startIndex, endIndex);
+
           resolve({
             message: "Job list fetched successfully",
-            results: data,
+            results: paginatedData,
             success: true,
             statusCode: 200,
+            pagination: {
+              page,
+              limit,
+              totalResults: data.length,
+              totalPages: Math.ceil(data.length / limit),
+            },
           });
         })
         .catch((err) => {
