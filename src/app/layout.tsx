@@ -28,11 +28,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable}  antialiased h-screen  bg-foreground dark:bg-background text-black dark:text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} w-full  antialiased   bg-foreground dark:bg-background text-black dark:text-white`}
       >
         <ThemeProvider>
-          <Navbar />
-          {children}
+          <div className="fixed bg-foreground dark:bg-background shadow-sm top-0 w-full">
+            <Navbar />
+          </div>
+          <main className="mt-20"> {children}</main>
         </ThemeProvider>
       </body>
     </html>

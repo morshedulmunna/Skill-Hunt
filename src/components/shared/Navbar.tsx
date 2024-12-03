@@ -22,8 +22,8 @@ export default function Navbar(): JSX.Element {
   ];
 
   return (
-    <MaxWidthWrapper>
-      <div className="flex justify-between items-center py-4">
+    <MaxWidthWrapper className="w-full">
+      <div className="flex  justify-between items-center py-4">
         <Logo />
         <div className="flex justify-between items-center gap-x-12">
           {navItems.map((each) => (
