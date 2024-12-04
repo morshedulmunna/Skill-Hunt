@@ -10,28 +10,25 @@ type Props = {
 };
 
 const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
-  const { query, location, category, page } = await searchParams;
+  const { query, location, category, page, limit } = await searchParams;
+  const params = Object.entries({ query, location, category, page, limit })
+    .filter(([_, value]) => value !== undefined)
+    .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
+
+  const queryParams = new URLSearchParams(params).toString();
+  const url = `http://localhost:3000/api/jobs/get-jobs?${queryParams}`;
 
   let jobList = [] as [];
+  let error = "";
   let totalCount = 0;
 
   try {
-    // Filter jobs based on query, location, and category
-    if (query || location || category) {
-      const response = (await filterJobs({
-        query,
-        location,
-        category,
-        page,
-      })) as any;
-      jobList = response.results as [];
-      totalCount = response?.pagination?.totalResults || 0;
-    } else {
-      const response = (await getJobList(page)) as any;
-      jobList = response.results as [];
-      totalCount = response?.pagination?.totalResults || 0;
-      // console.log(response, "job list response");
-    }
+    const res = await fetch(url);
+    const data = await res.json();
+
+    console.log(data);
+    jobList = data?.results?.jobList;
+    totalCount = data?.results?.pagination?.totalResults;
   } catch (error) {
     console.error("Failed to fetch job list:", error);
   }
@@ -48,7 +45,12 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
               <h2 className="text-primary-base font-semibold">
                 {totalCount} Jobs
               </h2>
-              {jobList.map((each, index) => (
+              {jobList.length === 0 && (
+                <p className="text-center text-sm text-gray-500">
+                  No jobs found. Please try again.
+                </p>
+              )}
+              {jobList?.map((each, index) => (
                 <BoxWrapper key={index} className="w-full p-4">
                   <JobCard job={each} key={index} />
                 </BoxWrapper>
