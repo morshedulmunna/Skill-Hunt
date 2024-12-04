@@ -1,4 +1,3 @@
-import { getCategories, getCountryList } from "@/actions/action";
 import FeaturesJobCarousel from "@/components/FeaturesJobCarousel";
 import HeroSection from "@/components/HeroSection";
 import SearchingSection from "@/components/SearchingSection";
@@ -8,7 +7,6 @@ import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 import { SERVER_HOST } from "@/constant";
 
 export default async function Home(): Promise<React.ReactElement> {
-  const category = (await getCategories()) as any;
   let countriesOptions = [] as any;
   let categoriesOptions = [] as any;
   try {
