@@ -1,5 +1,6 @@
 import { filterJobs, getJobList } from "@/actions/action";
 import JobCard from "@/components/JobCard";
+import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 import { GetServerSideProps, NextPage } from "next";
 
@@ -31,12 +32,12 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
           <div className="col-span-2 h-full bg-foreground dark:bg-background dark:shadow shadow-sm border-r border-l border-b dark:border-gray-200/10 border-gray-200  p-4 rounded-md">
             Filter
           </div>
-          <div className="col-span-7  gap-2 ">
-            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2">
-              {jobList.map((each, index) => (
+          <div className="col-span-10 px-16 space-y-2  gap-2 ">
+            {jobList.map((each, index) => (
+              <BoxWrapper className="w-full p-2">
                 <JobCard job={each} key={index} />
-              ))}
-            </div>
+              </BoxWrapper>
+            ))}
           </div>
         </section>
       </MaxWidthWrapper>
