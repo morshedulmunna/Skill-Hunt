@@ -6,10 +6,19 @@ import SearchInput from "./shared/SearchInput";
 import { useRouter } from "next/navigation";
 import { generateSearchQueryUrl } from "@/utils";
 
-type Props = {};
+type Props = {
+  category: [];
+};
 
-export default function SearchingSection({}: Props) {
+export default function SearchingSection({ category }: Props) {
   const router = useRouter();
+  let categoryOption = [] as any;
+  if (category.length > 0) {
+    category.forEach((cat) => {
+      categoryOption.push({ label: cat, value: cat });
+    });
+  }
+
   // state for category, location, and query
   const [searchParams, setSearchParams] = useState({
     category: "",
@@ -38,11 +47,7 @@ export default function SearchingSection({}: Props) {
       <div className="w-full md:w-fit">
         <SelectionOptionDropdown
           defaultValue="Select Category"
-          options={[
-            { label: "Skill", value: "skill" },
-            { label: "Language", value: "language" },
-            { label: "Location", value: "location" },
-          ]}
+          options={categoryOption}
           onSelect={(option) => handleSelect("category", option.value)}
         />
       </div>

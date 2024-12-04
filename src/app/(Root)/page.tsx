@@ -7,7 +7,7 @@ import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 
 export default async function Home(): Promise<React.ReactElement> {
-  const category = await getCategories();
+  const category = (await getCategories()) as any;
 
   console.log(category);
 
@@ -26,7 +26,7 @@ export default async function Home(): Promise<React.ReactElement> {
 
       <MaxWidthWrapper className={"max-w-screen-lg w-full"}>
         <BoxWrapper className="w-full mx-auto   flex items-center justify-start p-3  h-auto border-gray-100/90  relative z-20 ">
-          <SearchingSection />
+          <SearchingSection category={category.results} />
         </BoxWrapper>
       </MaxWidthWrapper>
 
