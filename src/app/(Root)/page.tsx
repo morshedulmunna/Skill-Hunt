@@ -10,13 +10,19 @@ import { SERVER_HOST } from "@/constant";
 export default async function Home(): Promise<React.ReactElement> {
   const category = (await getCategories()) as any;
   let countriesOptions = [] as any;
+  let categoriesOptions = [] as any;
   try {
     const countries = await fetch(`${SERVER_HOST}/location-list`);
     const response = (await countries.json()) as any;
     countriesOptions = response.results.locationOption;
+
+    const res = await fetch(`${SERVER_HOST}/categoris-list`);
+    const categoriesResponse = (await res.json()) as any;
+    categoriesOptions = categoriesResponse.results.categoriesListOption;
   } catch (error) {
     console.error("Error fetching countries:", error);
     countriesOptions = [];
+    categoriesOptions = [];
   }
 
   return (
@@ -35,7 +41,7 @@ export default async function Home(): Promise<React.ReactElement> {
       <MaxWidthWrapper className={"max-w-screen-md w-full -mt-8"}>
         <BoxWrapper className="w-full mx-auto   flex items-center justify-start px-3 py-6  h-auto lg:h-[80px] border-gray-100/90  relative z-20 ">
           <SearchingSection
-            category={category.results}
+            categoriesOptions={categoriesOptions}
             countries={countriesOptions}
           />
         </BoxWrapper>

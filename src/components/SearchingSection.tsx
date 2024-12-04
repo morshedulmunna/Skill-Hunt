@@ -7,18 +7,15 @@ import { useRouter } from "next/navigation";
 import { generateSearchQueryUrl } from "@/utils";
 
 type Props = {
-  category: [];
+  categoriesOptions: [];
   countries: [];
 };
 
-export default function SearchingSection({ category, countries }: Props) {
+export default function SearchingSection({
+  categoriesOptions,
+  countries,
+}: Props) {
   const router = useRouter();
-  let categoryOption = [] as any;
-  if (category.length > 0) {
-    category.forEach((cat) => {
-      categoryOption.push({ label: cat, value: cat });
-    });
-  }
 
   // state for category, location, and query
   const [searchParams, setSearchParams] = useState({
@@ -49,7 +46,7 @@ export default function SearchingSection({ category, countries }: Props) {
         <SelectionOptionDropdown
           className="py-2 w-24 border-none"
           defaultValue="Select Category"
-          options={categoryOption}
+          options={categoriesOptions}
           onSelect={(option) => handleSelect("category", option.value)}
         />
       </div>

@@ -108,7 +108,7 @@ export default function SelectionOptionDropdown({
             {options?.map((option) => (
               <div
                 key={option.value}
-                className="block w-full whitespace-nowrap px-4 py-2 text-xs lg:text-sm  transition-all ease-in-out cursor-pointer"
+                className="block w-full whitespace-nowrap capitalize px-4 py-2 text-xs lg:text-sm  transition-all ease-in-out cursor-pointer"
                 onClick={() => handleOptionClick(option)}
                 role="menuitem"
               >

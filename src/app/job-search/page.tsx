@@ -20,7 +20,6 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
   const url = `${SERVER_HOST}/jobs/get-jobs?${queryParams}`;
 
   let jobList = [] as [];
-  let error = "";
   let totalCount = 0;
 
   try {
@@ -43,9 +42,9 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
           </div>
           <div className=" col-span-12 flex flex-col h-full lg:col-span-9 overflow-y-auto lg:pr-16 space-y-2  gap-2 ">
             <div className="flex-1">
-              <h2 className="text-primary-base font-semibold">
+              {/* <h2 className="text-primary-base font-semibold">
                 {totalCount} Jobs
-              </h2>
+              </h2> */}
               {jobList.length === 0 && (
                 <p className="text-center text-sm text-gray-500">
                   No jobs found. Please try again.

@@ -12,14 +12,12 @@ export async function GET(request: Request) {
 
     const job = jobListResponse.results as [];
 
-    // console.log(job);
+    const categories = new Set((job as any).map((i: any) => i.preferred_type));
+    const categoriesList = Array.from(categories);
 
-    const location = new Set((job as any).map((i: any) => i.details.location));
-    const locations = Array.from(location);
-
-    const locationOption = [] as any;
-    locations.forEach((loc: any) => {
-      locationOption.push({
+    const categoriesListOption = [] as any;
+    categoriesList.forEach((loc: any) => {
+      categoriesListOption.push({
         label: loc,
         value: loc.toLowerCase(),
       });
@@ -27,18 +25,18 @@ export async function GET(request: Request) {
 
     return NextResponse.json({
       success: true,
-      message: "location fetched successfully",
+      message: "Categories fetched successfully",
       results: {
-        locations: Array.from(new Set(locations)),
-        locationOption: locationOption,
+        categories: Array.from(new Set(categoriesList)),
+        categoriesListOption: categoriesListOption,
       },
       statusCode: 200,
     });
   } catch (error) {
-    console.error("Error fetching locations:", error);
+    console.error("Error fetching Categories:", error);
     return NextResponse.json(
       {
-        message: "Failed to fetch locations",
+        message: "Failed to fetch Categories",
         success: false,
         statusCode: 500,
       },
