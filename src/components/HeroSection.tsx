@@ -3,6 +3,7 @@ import MaxWidthWrapper from "./shared/MaxWidthWrapper";
 import BoxWrapper from "./shared/BoxWrapper";
 import SearchingSection from "./SearchingSection";
 import { getCategories } from "@/actions/action";
+import HeroIllustratorSvgIcon from "@/assets/svg/HeroIllustratorSvgIcon";
 
 type Props = {};
 
@@ -42,7 +43,9 @@ export default async function HeroSection({}: Props) {
         </div>
       </div>
 
-      <div className="w-full bg-gray-300 h-full lg:w-1/2">Hero Image</div>
+      <div className="w-full  h-full lg:w-1/2">
+        <HeroIllustratorSvgIcon />
+      </div>
     </MaxWidthWrapper>
   );
 }
