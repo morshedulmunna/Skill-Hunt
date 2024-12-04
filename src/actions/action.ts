@@ -126,14 +126,18 @@ export const filterJobs = async (filters: {
         (job.title.toLowerCase().includes(filters.query.toLowerCase()) ||
           job.description.toLowerCase().includes(filters.query.toLowerCase()));
 
+      console.log(queryMatch);
+
       const locationMatch =
-        !filters.location ||
+        filters.location &&
         job.details.location
           .toLowerCase()
           .includes(filters.location.toLowerCase());
 
+      console.log(locationMatch);
+
       const categoryMatch =
-        !filters.category || job.type.includes(filters.category);
+        filters.category && job.type.includes(filters.category);
 
       // Return true if all filters match
       return queryMatch || locationMatch || categoryMatch;
@@ -252,9 +256,11 @@ export const getCategories = async (): Promise<JobListResponse> => {
 
     const job = jobListResponse.results as [];
 
-    const categories = job.map((job: any) => ({
-      category: job.category,
-    }));
+    // console.log(job);
+
+    const se = new Set((job as any).flatMap((i: any) => i.type));
+
+    const categories = Array.from(se);
 
     return {
       success: true,

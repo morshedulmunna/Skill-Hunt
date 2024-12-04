@@ -22,6 +22,7 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
   } catch (error) {
     console.error("Failed to fetch job list:", error);
   }
+  console.log(jobList);
 
   return (
     <>

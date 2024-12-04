@@ -1,11 +1,10 @@
 "use client";
 
-"use client";
-
 import React, { useState } from "react";
 import SelectionOptionDropdown from "./shared/SelectionOptionDropdown";
 import SearchInput from "./shared/SearchInput";
 import { useRouter } from "next/navigation";
+import { generateSearchQueryUrl } from "@/utils";
 
 type Props = {};
 
@@ -28,21 +27,10 @@ export default function SearchingSection({}: Props) {
     setSearchParams((prevState) => ({ ...prevState, query }));
   };
 
-  // Function to build search query URL
-  const generateSearchQueryUrl = () => {
-    const { category, location, query } = searchParams;
-    const searchParamsObj = new URLSearchParams();
-    if (category) searchParamsObj.append("category", String(category));
-    if (location) searchParamsObj.append("location", String(location));
-    if (query) searchParamsObj.append("query", query);
-
-    return `/job-search?${searchParamsObj.toString()}`;
-  };
-
   // Function to navigate with the search URL
   const handleSearchSubmit = () => {
-    const searchUrl = generateSearchQueryUrl();
-    router.push(searchUrl); // Navigate to the search page with query parameters
+    const searchUrl = generateSearchQueryUrl(searchParams);
+    router.push(`/job-search?${searchUrl}`);
   };
 
   return (

@@ -1,3 +1,4 @@
+import { getCategories } from "@/actions/action";
 import FeaturesJobCarousel from "@/components/FeaturesJobCarousel";
 import HeroSection from "@/components/HeroSection";
 import SearchingSection from "@/components/SearchingSection";
@@ -5,7 +6,11 @@ import { CircularShapes } from "@/components/shapes/CircularShapes";
 import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 
-export default function Home(): React.ReactElement {
+export default async function Home(): Promise<React.ReactElement> {
+  const category = await getCategories();
+
+  console.log(category);
+
   return (
     <div className="w-full h-full">
       <div className="h-auto  relative overflow-hidden">
