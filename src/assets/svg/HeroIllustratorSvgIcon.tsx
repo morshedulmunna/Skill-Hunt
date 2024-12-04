@@ -5,7 +5,7 @@ type Props = {};
 export default function HeroIllustratorSvgIcon({}: Props) {
   return (
     <svg
-      width="492"
+      width="452"
       height="382"
       viewBox="0 0 492 382"
       fill="none"

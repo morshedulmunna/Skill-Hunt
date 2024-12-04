@@ -25,7 +25,7 @@ export default async function Home(): Promise<React.ReactElement> {
         />
       </div>
 
-      <MaxWidthWrapper className={"max-w-screen-lg w-full -mt-8"}>
+      <MaxWidthWrapper className={"max-w-screen-md w-full -mt-8"}>
         <BoxWrapper className="w-full mx-auto   flex items-center justify-start px-3 py-6  h-auto lg:h-[80px] border-gray-100/90  relative z-20 ">
           <SearchingSection
             category={category.results}

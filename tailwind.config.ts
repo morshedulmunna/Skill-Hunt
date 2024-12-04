@@ -53,6 +53,7 @@ export default {
         },
         background: "#111b21",
         foreground: "#FFFFFF",
+        "tx-color": "#C5C9D6",
       },
       screens: {
         "2xl": "1400px",

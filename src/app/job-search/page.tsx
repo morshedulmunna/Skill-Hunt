@@ -27,7 +27,7 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
 
   return (
     <>
-      <MaxWidthWrapper>
+      <MaxWidthWrapper className="mb-12 mt-6">
         <section className="h-full grid gap-2 grid-cols-12 w-full">
           <div className="col-span-3 h-full bg-foreground dark:bg-background dark:shadow shadow-sm border-r border-l border-b dark:border-gray-200/10 border-gray-200  p-4 rounded-md">
             Filter
