@@ -35,14 +35,23 @@ export default function Navbar(): JSX.Element {
               {each.label}
             </Link>
           ))}
-          <Link
-            href={"/login"}
-            className="px-4 py-2 rounded-lg bg-gray-200  dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none "
-          >
-            Login
-          </Link>
-
-          <ThemeToggler />
+          <div className="hidden lg:block">
+            <div className="flex gap-6 items-center justify-end">
+              <Link
+                href={"/signin"}
+                className="px-4 py-2 rounded border border-gray-300 dark:border-gray-700 whitespace-nowrap  text-primary-base dark:text-gray-100 focus:outline-none "
+              >
+                Sign in
+              </Link>
+              <Link
+                href={"/signin"}
+                className="px-4 py-2 rounded bg-primary-base whitespace-nowrap  text-white  focus:outline-none "
+              >
+                Post a Jobs
+              </Link>
+              <ThemeToggler />
+            </div>
+          </div>
         </div>
       </div>
     </MaxWidthWrapper>

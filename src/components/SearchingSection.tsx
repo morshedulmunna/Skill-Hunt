@@ -46,6 +46,7 @@ export default function SearchingSection({ category }: Props) {
     <div className="flex items-center flex-col md:flex-row w-full gap-4">
       <div className="w-full md:w-fit">
         <SelectionOptionDropdown
+          className="py-2 w-24 border-none"
           defaultValue="Select Category"
           options={categoryOption}
           onSelect={(option) => handleSelect("category", option.value)}
@@ -53,6 +54,7 @@ export default function SearchingSection({ category }: Props) {
       </div>
       <div className="w-full md:w-fit">
         <SelectionOptionDropdown
+          className="py-2 w-24 border-none"
           defaultValue="Select Location"
           options={[
             { label: "Skill", value: "skill" },
@@ -70,7 +72,7 @@ export default function SearchingSection({ category }: Props) {
       <button
         type="submit"
         onClick={handleSearchSubmit}
-        className="bg-primary-base px-4 py-1.5 rounded text-white disabled:bg-gray-400"
+        className="bg-primary-base w-full lg:w-fit px-6 py-3 rounded text-white disabled:bg-gray-400"
       >
         {/* {isLoading ? "Searching..." : "Search"} */}
         Search

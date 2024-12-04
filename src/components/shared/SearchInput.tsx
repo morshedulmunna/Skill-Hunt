@@ -23,7 +23,7 @@ function SearchInput({
 
   return (
     <input
-      className="border px-4 bg-transparent dark:border-gray-800 py-1.5 rounded w-full outline-none"
+      className="border px-4 bg-transparent dark:border-gray-800 py-3 rounded w-full outline-none"
       type="search"
       id="search-input"
       placeholder={placeholder}

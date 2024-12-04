@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <div className="flex h-screen flex-col ">
-            <div className="fixed bg-foreground dark:bg-background shadow-sm top-0 w-full">
+            <div className="fixed z-50 bg-foreground dark:bg-background shadow-sm top-0 w-full">
               <Navbar />
             </div>
             <main className="mt-20 flex-1"> {children}</main>
