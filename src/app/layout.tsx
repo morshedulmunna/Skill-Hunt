@@ -37,7 +37,7 @@ export default function RootLayout({
             </div>
             <main className="mt-20 flex-1"> {children}</main>
 
-            <footer className="bg-foreground border-t shadow-sm text-xs dark:border-gray-800 dark:bg-background  py-6">
+            <footer className="bg-foreground border-t mt-24 shadow-sm text-xs dark:border-gray-800 dark:bg-background  py-6">
               <div className="container mx-auto text-center">
                 <p>&copy; 2024 Morshedul Munna. All Rights Reserved.</p>
                 <div className="mt-4">

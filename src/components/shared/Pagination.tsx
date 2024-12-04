@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 interface PaginationProps {
   numberOfData: number;
   limits: number;
+  activePage: number;
   className?: string;
   getCurrentPage?: (page: number) => void;
   [key: string]: any;
@@ -15,10 +16,11 @@ const Pagination: React.FC<PaginationProps> = ({
   limits,
   className,
   getCurrentPage,
+  activePage = 1,
   ...props
 }) => {
   const [numberOfPage, setNumberOfPage] = useState<number>(1);
-  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [currentPage, setCurrentPage] = useState<number>(activePage);
 
   useEffect(() => {
     if (numberOfData < limits) {

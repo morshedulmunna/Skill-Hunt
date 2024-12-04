@@ -12,7 +12,7 @@ type JobListResponse = {
 
 export const getJobList = (
   page: number = 1,
-  limit: number = 10
+  limit: number = 5
 ): Promise<JobListResponse> => {
   return new Promise((resolve, reject) => {
     try {
@@ -104,6 +104,8 @@ export const filterJobs = async (filters: {
   query?: string;
   location?: string;
   category?: string;
+  page?: number;
+  limit?: number;
 }): Promise<JobListResponse> => {
   try {
     const filePath = path.join(
@@ -115,10 +117,9 @@ export const filterJobs = async (filters: {
 
     // Read Data from JSON File
     const fileData = await fs.readFile(filePath, "utf-8");
-
     let data = JSON.parse(fileData);
 
-    // Filter jobs based Query
+    // Filter jobs based on filters
     const filteredJobs = data.filter((job: any) => {
       const queryMatch =
         filters.query &&
@@ -126,28 +127,36 @@ export const filterJobs = async (filters: {
         (job.title.toLowerCase().includes(filters.query.toLowerCase()) ||
           job.description.toLowerCase().includes(filters.query.toLowerCase()));
 
-      console.log(queryMatch);
-
       const locationMatch =
         filters.location &&
         job.details.location
           .toLowerCase()
           .includes(filters.location.toLowerCase());
 
-      console.log(locationMatch);
-
       const categoryMatch =
         filters.category && job.type.includes(filters.category);
 
-      // Return true if all filters match
+      // Return true if any filter matches
       return queryMatch || locationMatch || categoryMatch;
     });
 
+    // Implement Pagination
+    const page = filters.page || 1;
+    const limit = filters.limit || 5;
+
+    const paginatedJobs = filteredJobs.slice((page - 1) * limit, page * limit);
+
     return {
       message: "Filtered jobs retrieved successfully",
-      results: filteredJobs,
+      results: paginatedJobs,
       success: true,
       statusCode: 200,
+      pagination: {
+        page,
+        limit,
+        totalResults: filteredJobs.length,
+        totalPages: Math.ceil(filteredJobs.length / limit),
+      },
     };
   } catch (error) {
     console.error("Error filtering jobs:", error);

@@ -1,57 +1,70 @@
+import ArrowSvgIcon from "@/assets/svg/ArrowSvgIcon";
+import BookMarkIconSvg from "@/assets/svg/BookMarkIconSvg";
 import CalenderSvgIcon from "@/assets/svg/CalenderSvgIcon";
 import DollarSvgIcon from "@/assets/svg/DollarSvgIcon";
 import LocationIconSvg from "@/assets/svg/LocationIconSvg";
+import { ArrowBigDown } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
-interface JobCardProps {
-  job: {
-    id: string;
-    title: string;
-    company: {
-      name: string;
-    };
-    description: string;
-    degree: string;
-    type: string[];
-    salary: string;
-    timePosted: string;
-  };
-  selectJobId: string;
-}
-
 const JobCard: React.FC<any> = ({ job, selectJobId }) => {
-  const { id, title, company, description, degree, type, salary, timePosted } =
-    job;
-  const isSelected = id === selectJobId;
-
+  const {
+    id,
+    title,
+    company,
+    details,
+    preferred_type,
+    type,
+    salary,
+    timePosted,
+    applicants,
+  } = job;
   return (
     <>
-      <div className="flex justify-between p-4 items-center group cursor-pointer">
-        <div className="flex justify-start gap-2 items-start">
-          <div className="w-20 h-16 rounded bg-gray-100"></div>
+      <div className="flex justify-between flex-col md:flex-row p-4 items-end md:items-center lg:justify-center group cursor-pointer">
+        <div className="flex flex-col lg:flex-row justify-start gap-2 items-start">
+          <div className="min-w-20 min-h-20 max-w-20 max-h-20 rounded bg-gray-100">
+            <Image
+              src={company.logo}
+              alt="company_logo"
+              width={500}
+              height={500}
+            />
+          </div>
           <div>
-            <p className="text-base group-hover:text-blue-500 group-hover:underline  font-semibold">
-              Senior UI UX Designer <span>Remote</span>
+            <p className="mb-1 group-hover:text-blue-500 group-hover:underline">
+              {company.name}
             </p>
-            <div className="flex items-center gap-2 mt-2 text-sm">
+            <p className="text-base group-hover:text-blue-500 group-hover:underline  font-semibold">
+              {title}
+              <span className="inline-block ml-2 font-bold dark:bg-primary-lightest/20 bg-primary-lightest/50  px-2 py-1 rounded-lg text-xs">
+                {preferred_type}
+              </span>
+            </p>
+            <div className="flex items-center flex-wrap gap-2 mt-2 text-sm">
               <div className="text-xs dark:text-tx-color text-gray-500 flex justify-start items-center gap-1">
-                <LocationIconSvg /> <span>Australia</span>{" "}
+                <LocationIconSvg /> <span>{details.location}</span>{" "}
               </div>
               <div className="text-xs dark:text-tx-color text-gray-500 flex justify-start items-center gap-1">
-                <DollarSvgIcon /> <span>500</span>{" "}
+                <DollarSvgIcon /> <span>{salary}</span>
               </div>
               <div className="text-xs dark:text-tx-color text-gray-500 flex justify-start items-center gap-1">
-                <CalenderSvgIcon /> <span>4 Days Remaining</span>{" "}
+                <CalenderSvgIcon /> <span>{applicants}</span>
               </div>
             </div>
-            <p className="text-xs mt-2 font-thin line-clamp-2 dark:text-tx-color text-gray-500">
-              Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad
-              sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa.
-              laborum tempor Lorem incididunt.
+            <p className="text-xs max-w-[80%] mt-2 font-thin line-clamp-2 dark:text-gray-400 text-gray-500">
+              {details.jobDescription}
             </p>
           </div>
         </div>
-        <div>right</div>
+        <div>
+          <div className="bg-primary-base mt-6 text-white flex items-center gap-2 px-4 py-2 rounded text-sm">
+            <button className="whitespace-nowrap " type="button">
+              Apply Now
+            </button>
+            <ArrowSvgIcon className="animate-pulse" />
+          </div>
+        </div>
       </div>
     </>
   );
