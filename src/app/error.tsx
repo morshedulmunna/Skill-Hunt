@@ -16,7 +16,7 @@ const Error: React.FC<ErrorProps> = ({ error, reset }) => {
   }, [error]);
 
   return (
-    <div className="flex h-screen justify-center items-center flex-col">
+    <div className="flex h-full justify-center items-center flex-col">
       <h2 className="text-red-500 text-xl md:text-3xl mb-5">
         Something went wrong!
       </h2>

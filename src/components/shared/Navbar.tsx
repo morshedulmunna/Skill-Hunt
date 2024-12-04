@@ -28,7 +28,8 @@ export default function Navbar(): JSX.Element {
         <div className="flex justify-between items-center gap-x-12">
           {navItems.map((each) => (
             <Link
-              key={each.href} // Using `href` as the unique key
+              prefetch
+              key={each.href}
               href={each.href}
               className="whitespace-nowrap hidden lg:block font-medium dark:hover:text-primary-lighter hover:text-primary-dark  transition-all ease-linear py-1 mx-2 w-full"
             >

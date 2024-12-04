@@ -1,1906 +1,338 @@
 [
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "77b19637-5027-4d8d-9b1e-2c8b5a5e8691",
+        "title": "Frontend Developer",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Google",
+            "logo": "/logos/google.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher Munna banna can apply",
+        "degree": "MSc in Software Engineering",
+        "description": "Exciting opportunities for experienced developers.",
+        "type": [
+            "Part-Time",
+            "Intermediate",
+            "Hybrid"
+        ],
+        "salary": "8k/month",
+        "preferred_type": "hybrid",
+        "timePosted": "10 mins ago",
+        "bookmarked": false,
+        "applicants": "500+ applicants",
+        "details": {
+            "location": "bangladesh",
+            "positionType": "Hybrid",
+            "experience": "Intermediate",
+            "postedDate": "10 Jan, 2024",
+            "baseSalary": "৳12k/month",
+            "jobDescription": "Develop and maintain user interfaces using React and TypeScript. Collaborate with cross-functional teams to ensure seamless UI/UX design."
+        }
+    },
+    {
+        "id": "3d4e7d90-2943-4c76-a6d6-68abacb2e34a",
+        "title": "Backend Developer",
+        "company": {
+            "name": "Amazon",
+            "logo": "/logos/amazon.png"
+        },
+        "degree": "BSc in Software Engineering",
+        "description": "Join our innovative backend team.",
         "type": [
             "Full-Time",
             "Expert",
+            "Onsite"
+        ],
+        "salary": "7k/month",
+        "preferred_type": "onsite",
+        "timePosted": "1 hour ago",
+        "bookmarked": true,
+        "applicants": "800+ applicants",
+        "details": {
+            "location": "Seattle, US",
+            "positionType": "Onsite",
+            "experience": "Expert",
+            "postedDate": "9 Jan, 2024",
+            "baseSalary": "৳15k/month",
+            "jobDescription": "Work on scalable backend services using Node.js and PostgreSQL. Ensure efficient database design and API integrations."
+        }
+    },
+    {
+        "id": "d8ae99a3-5374-4019-9940-b2c3d3193444",
+        "title": "Mobile App Developer",
+        "company": {
+            "name": "Meta",
+            "logo": "/logos/meta.png"
+        },
+        "degree": "Diploma in Software Development",
+        "description": "Creative problem solvers welcome.",
+        "type": [
+            "Contract",
+            "Senior",
             "Remote"
         ],
-        "salary": "6k/month",
+        "salary": "10k/month",
         "preferred_type": "remote",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talentedss and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "timePosted": "30 mins ago",
+        "bookmarked": false,
+        "applicants": "400+ applicants",
         "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
-        }
-    },
-    {
-        "id": 1,
-        "title": "UI/UX Designer",
-        "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
-        },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
-        "details": {
-            "location": "New York, US",
+            "location": "Austin, US",
             "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "experience": "Senior",
+            "postedDate": "8 Jan, 2024",
+            "baseSalary": "৳20k/month",
+            "jobDescription": "Design and implement cutting-edge mobile applications for Android and iOS platforms using React Native and Flutter."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "ed1346d2-b15b-4de1-95c8-6a9c61273617",
+        "title": "Data Scientist",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Microsoft",
+            "logo": "/logos/microsoft.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "PhD in Data Science",
+        "description": "Unleash the power of data.",
         "type": [
             "Full-Time",
             "Expert",
             "Remote"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
+        "salary": "15k/month",
+        "preferred_type": "remote",
+        "timePosted": "1 day ago",
         "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "applicants": "700+ applicants",
         "details": {
-            "location": "New York, US",
+            "location": "Redmond, US",
             "positionType": "Remote",
             "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "postedDate": "7 Jan, 2024",
+            "baseSalary": "৳25k/month",
+            "jobDescription": "Analyze and interpret complex datasets using Python, R, and SQL. Develop machine learning models to solve business problems."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "f1e5d1f2-d473-4d1e-8c1b-d0adf36e45b3",
+        "title": "Product Manager",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Apple",
+            "logo": "/logos/apple.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "MBA in Business Administration",
+        "description": "Lead product teams to success.",
         "type": [
             "Full-Time",
-            "Expert",
-            "Remote"
+            "Senior",
+            "Hybrid"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
+        "salary": "12k/month",
+        "preferred_type": "hybrid",
+        "timePosted": "2 hours ago",
         "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "applicants": "300+ applicants",
         "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "location": "Cupertino, US",
+            "positionType": "Hybrid",
+            "experience": "Senior",
+            "postedDate": "6 Jan, 2024",
+            "baseSalary": "৳22k/month",
+            "jobDescription": "Oversee the development and launch of new products. Collaborate with cross-functional teams to ensure alignment with customer needs and market demands."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "bb16c7ae-9b8d-4337-83e5-3c4d6ccfa9f2",
+        "title": "Cloud Engineer",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "IBM",
+            "logo": "/logos/ibm.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "MSc in Cloud Computing",
+        "description": "Help build and scale cloud solutions.",
         "type": [
             "Full-Time",
-            "Expert",
+            "Intermediate",
             "Remote"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "salary": "11k/month",
+        "preferred_type": "remote",
+        "timePosted": "3 hours ago",
+        "bookmarked": false,
+        "applicants": "250+ applicants",
         "details": {
-            "location": "New York, US",
+            "location": "bangladesh",
             "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "experience": "Intermediate",
+            "postedDate": "5 Jan, 2024",
+            "baseSalary": "৳18k/month",
+            "jobDescription": "Develop and manage cloud infrastructure using AWS, Azure, and Google Cloud. Ensure security, scalability, and performance of cloud-based applications."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "5be6bff7-55ab-4b56-8b6d-e179f938b3c8",
+        "title": "Systems Administrator",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Oracle",
+            "logo": "/logos/oracle.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "BSc in Network Engineering",
+        "description": "Maintain critical infrastructure systems.",
         "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
+            "Part-Time",
+            "Junior",
+            "Onsite"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
+        "salary": "5k/month",
+        "preferred_type": "onsite",
+        "timePosted": "1 day ago",
         "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "applicants": "150+ applicants",
         "details": {
             "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "positionType": "Onsite",
+            "experience": "Junior",
+            "postedDate": "4 Jan, 2024",
+            "baseSalary": "৳8k/month",
+            "jobDescription": "Support the organization’s IT infrastructure, including servers, networks, and workstations. Troubleshoot and resolve technical issues."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "a7899d99-2fbf-497f-8ff3-0fae8d3d0544",
+        "title": "QA Engineer",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Adobe",
+            "logo": "/logos/adobe.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "BEng in Software Testing",
+        "description": "Ensure product quality with advanced testing.",
         "type": [
             "Full-Time",
-            "Expert",
+            "Intermediate",
             "Remote"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
+        "salary": "9k/month",
+        "preferred_type": "remote",
+        "timePosted": "2 days ago",
         "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "applicants": "600+ applicants",
         "details": {
-            "location": "New York, US",
+            "location": "San Jose, US",
             "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "experience": "Intermediate",
+            "postedDate": "3 Jan, 2024",
+            "baseSalary": "৳14k/month",
+            "jobDescription": "Design, develop, and execute test cases to ensure the quality and functionality of software products. Use tools like Selenium and JIRA."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "9a62951b-d037-4fbb-8839-e6318fa3b22b",
+        "title": "Security Analyst",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Cisco",
+            "logo": "/logos/cisco.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "BSc in Cybersecurity",
+        "description": "Protect our digital assets.",
         "type": [
             "Full-Time",
-            "Expert",
-            "Remote"
+            "Senior",
+            "Hybrid"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "salary": "14k/month",
+        "preferred_type": "hybrid",
+        "timePosted": "5 hours ago",
+        "bookmarked": false,
+        "applicants": "1k+ applicants",
         "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "location": "San Jose, US",
+            "positionType": "Hybrid",
+            "experience": "Senior",
+            "postedDate": "2 Jan, 2024",
+            "baseSalary": "৳28k/month",
+            "jobDescription": "Monitor and analyze network security incidents. Provide guidance on best practices and mitigate risks related to cybersecurity."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "5ed4579f-c9b7-42bb-a87d-f9c6db5c3b06",
+        "title": "Data Analyst",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Spotify",
+            "logo": "/logos/spotify.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "BSc in Data Science",
+        "description": "Analyze trends and make data-driven decisions.",
         "type": [
-            "Full-Time",
-            "Expert",
+            "Part-Time",
+            "Intermediate",
             "Remote"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
+        "salary": "7k/month",
+        "preferred_type": "remote",
+        "timePosted": "4 hours ago",
         "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "applicants": "300+ applicants",
         "details": {
-            "location": "New York, US",
+            "location": "Los Angeles, US",
             "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "experience": "Intermediate",
+            "postedDate": "1 Jan, 2024",
+            "baseSalary": "৳12k/month",
+            "jobDescription": "Analyze user behavior, trends, and patterns to help drive product decisions. Use SQL, Python, and Excel for data manipulation."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "c613ac11-5f16-4f83-8838-bf61f5bbad47",
+        "title": "Business Analyst",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Salesforce",
+            "logo": "/logos/salesforce.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "BBA in Business Administration",
+        "description": "Transform business needs into solutions.",
         "type": [
             "Full-Time",
-            "Expert",
-            "Remote"
+            "Senior",
+            "Onsite"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
-        "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "salary": "10k/month",
+        "preferred_type": "onsite",
+        "timePosted": "2 days ago",
+        "bookmarked": false,
+        "applicants": "1k+ applicants",
         "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "location": "Chicago, US",
+            "positionType": "Onsite",
+            "experience": "Senior",
+            "postedDate": "31 Dec, 2023",
+            "baseSalary": "৳18k/month",
+            "jobDescription": "Work closely with business leaders to identify and solve complex business problems. Provide actionable insights based on data analysis."
         }
     },
     {
-        "id": 1,
-        "title": "UI/UX Designer",
+        "id": "57d15e72-14b9-45f8-b0ea-cde78ef07b83",
+        "title": "DevOps Engineer",
         "company": {
-            "name": "Netflix",
-            "logo": "/logos/netflix.png"
+            "name": "Twitter",
+            "logo": "/logos/twitter.png"
         },
-        "degree": "BSc in Computer Science",
-        "description": "Fresher can apply",
+        "degree": "MSc in Cloud Engineering",
+        "description": "Automate and optimize infrastructure.",
         "type": [
             "Full-Time",
             "Expert",
-            "Remote"
+            "Hybrid"
         ],
-        "salary": "6k/month",
-        "preferred_type": "On-Side",
-        "timePosted": "2 mins ago",
+        "salary": "13k/month",
+        "preferred_type": "hybrid",
+        "timePosted": "6 hours ago",
         "bookmarked": true,
-        "applicants": "1000+ applicants",
+        "applicants": "1k+ applicants",
         "details": {
-            "location": "New York, US",
-            "positionType": "Remote",
+            "location": "Dallas, US",
+            "positionType": "Hybrid",
             "experience": "Expert",
-            "postedDate": "12 Jan, 2024",
-            "baseSalary": "৳10k/month",
-            "jobDescription": "We are seeking a talented and motivated UI/UX Designer to join our team. Core responsibilities include user interaction design, based on research and analysis in order to communicate design motivations/decisions to various stakeholders. Must have strong skills in Figma, Sketch, and Adobe XD."
+            "postedDate": "30 Dec, 2023",
+            "baseSalary": "৳22k/month",
+            "jobDescription": "Develop and maintain automated workflows and pipelines to improve deployment efficiency and system reliability."
         }
     }
 ]
