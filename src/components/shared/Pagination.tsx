@@ -118,7 +118,7 @@ const Pagination: React.FC<PaginationProps> = ({
         {currentPage > 5 && numberOfPage > 5 && (
           <button
             onClick={() => setLimitHandler(0)}
-            className={`border h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium ${
+            className={`border dark:border-gray-800 h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium ${
               currentPage === 1 ? "bg-primary text-white" : "bg-transparent"
             }`}
           >
@@ -126,7 +126,7 @@ const Pagination: React.FC<PaginationProps> = ({
           </button>
         )}
         {currentPage > 5 && numberOfPage > 5 && (
-          <span className="border h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium bg-transparent">
+          <span className="border dark:border-gray-800 h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium bg-transparent">
             ...
           </span>
         )}
