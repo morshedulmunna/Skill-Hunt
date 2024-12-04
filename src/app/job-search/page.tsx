@@ -33,6 +33,7 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
             Filter
           </div>
           <div className="col-span-9 overflow-y-auto pr-16 space-y-2  gap-2 ">
+            <h2 className="text-primary-base font-semibold"> 3177 Jobs</h2>
             {jobList.map((each, index) => (
               <BoxWrapper key={index} className="w-full p-4">
                 <JobCard job={each} key={index} />

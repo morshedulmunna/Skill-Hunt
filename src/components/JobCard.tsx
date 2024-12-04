@@ -26,11 +26,11 @@ const JobCard: React.FC<any> = ({ job, selectJobId }) => {
 
   return (
     <>
-      <div className="flex justify-between p-4 items-center">
+      <div className="flex justify-between p-4 items-center group cursor-pointer">
         <div className="flex justify-start gap-2 items-start">
-          <div className="w-14 h-14 rounded bg-gray-100"></div>
+          <div className="w-20 h-16 rounded bg-gray-100"></div>
           <div>
-            <p className="text-base font-semibold">
+            <p className="text-base group-hover:text-blue-500 group-hover:underline  font-semibold">
               Senior UI UX Designer <span>Remote</span>
             </p>
             <div className="flex items-center gap-2 mt-2 text-sm">
@@ -44,7 +44,7 @@ const JobCard: React.FC<any> = ({ job, selectJobId }) => {
                 <CalenderSvgIcon /> <span>4 Days Remaining</span>{" "}
               </div>
             </div>
-            <p>
+            <p className="text-xs mt-2 font-thin line-clamp-2 dark:text-tx-color text-gray-500">
               Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad
               sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa.
               laborum tempor Lorem incididunt.
