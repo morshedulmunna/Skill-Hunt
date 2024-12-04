@@ -44,6 +44,11 @@ const JobCard: React.FC<any> = ({ job, selectJobId }) => {
                 <CalenderSvgIcon /> <span>4 Days Remaining</span>{" "}
               </div>
             </div>
+            <p>
+              Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad
+              sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa.
+              laborum tempor Lorem incididunt.
+            </p>
           </div>
         </div>
         <div>right</div>
