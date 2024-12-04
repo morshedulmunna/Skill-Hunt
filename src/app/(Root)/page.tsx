@@ -10,7 +10,7 @@ export default async function Home(): Promise<React.ReactElement> {
   const category = (await getCategories()) as any;
   const countries = (await getCountryList()) as any;
 
-  console.log(category);
+  // console.log(category);
 
   return (
     <div className="w-full h-full">

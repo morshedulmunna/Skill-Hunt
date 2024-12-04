@@ -30,7 +30,7 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
       const response = (await getJobList(page)) as any;
       jobList = response.results as [];
       totalCount = response?.pagination?.totalResults || 0;
-      console.log(response, "job list response");
+      // console.log(response, "job list response");
     }
   } catch (error) {
     console.error("Failed to fetch job list:", error);

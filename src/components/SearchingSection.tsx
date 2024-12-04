@@ -27,7 +27,7 @@ export default function SearchingSection({ category, countries }: Props) {
     query: "",
   });
 
-  console.log(searchParams, "searchParams");
+  // console.log(searchParams, "searchParams");
 
   // Function to handle category and location selection
   const handleSelect = (type: string, value: string | number) => {
