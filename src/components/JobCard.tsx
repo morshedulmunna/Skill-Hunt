@@ -22,7 +22,7 @@ const JobCard: React.FC<any> = ({ job, selectJobId }) => {
   } = job;
   return (
     <>
-      <div className="flex justify-between flex-col md:flex-row p-4 items-end md:items-center lg:justify-center group cursor-pointer">
+      <div className="flex justify-between flex-col md:flex-row p-4 items-end md:items-center lg:justify-between group cursor-pointer">
         <Link prefetch href={`/job-details/${id}`}>
           <div className="flex flex-col lg:flex-row justify-start gap-2 items-start">
             <div className="min-w-20 min-h-20 max-w-20 max-h-20 rounded bg-gray-100">
