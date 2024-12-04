@@ -34,9 +34,14 @@ export default async function Home(): Promise<React.ReactElement> {
         </BoxWrapper>
       </MaxWidthWrapper>
 
-      <MaxWidthWrapper className="mt-24">
-        <FeaturesJobCarousel />
-      </MaxWidthWrapper>
+      <div className="mt-16 mb-12">
+        <MaxWidthWrapper>
+          <h2 className="mb-4 text-xl font-semibold">Features Jobs</h2>
+        </MaxWidthWrapper>
+        <MaxWidthWrapper className=" max-w-screen-2xl">
+          <FeaturesJobCarousel />
+        </MaxWidthWrapper>
+      </div>
     </div>
   );
 }

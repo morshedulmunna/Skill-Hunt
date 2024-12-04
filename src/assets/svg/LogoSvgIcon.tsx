@@ -16,7 +16,7 @@ export default function LogoSvgIcon({}: Props) {
         cy="12.5143"
         r="12.0143"
         fill="#3575E2"
-        fill-opacity="0.4"
+        fillOpacity="0.4"
       />
       <circle cx="16.9857" cy="17.4857" r="12.0143" fill="#3575E2" />
     </svg>

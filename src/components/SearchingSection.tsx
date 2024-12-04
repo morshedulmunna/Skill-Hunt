@@ -63,7 +63,10 @@ export default function SearchingSection({ category, countries }: Props) {
       </div>
 
       <div className="w-full">
-        <SearchInput onSearch={handleSearch} />
+        <SearchInput
+          placeholder="Search your expected category jobs"
+          onSearch={handleSearch}
+        />
       </div>
 
       <button

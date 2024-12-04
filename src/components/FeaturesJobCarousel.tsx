@@ -1,5 +1,7 @@
 "use client";
 
+import AutoPlayCarousel from "./shared/AutoPlayCarousel";
+
 // type Job = {
 //   id: number;
 //   title: string;
@@ -12,5 +14,9 @@ type Props = {
 };
 
 export default function FeaturesJobCarousel({}: Props) {
-  return <>FeaturesJobCarousel</>;
+  return (
+    <>
+      <AutoPlayCarousel />
+    </>
+  );
 }
