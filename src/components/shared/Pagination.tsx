@@ -74,11 +74,11 @@ const Pagination: React.FC<PaginationProps> = ({
         <button
           disabled={currentPage === 1}
           onClick={() => setLimitHandler(currentPage - 2)}
-          className={`border hover:border hover:border-gray-300 transition-all ease-in-out bg-white px-3 gap-2 py-2 flex justify-center items-center rounded-md ${
+          className={`border dark:border-gray-800 hover:border hover:border-gray-300 transition-all ease-in-out bg-transparent px-3 gap-2 py-1.5 flex justify-center items-center rounded-md ${
             currentPage === 1 && "opacity-50"
           } `}
         >
-          <svg
+          {/* <svg
             width="14"
             height="13"
             viewBox="0 0 17 16"
@@ -111,7 +111,7 @@ const Pagination: React.FC<PaginationProps> = ({
                 />
               </clipPath>
             </defs>
-          </svg>
+          </svg> */}
           <p className="font-medium text-xs lg:text-sm">Prev</p>
         </button>
 
@@ -119,14 +119,14 @@ const Pagination: React.FC<PaginationProps> = ({
           <button
             onClick={() => setLimitHandler(0)}
             className={`border h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium ${
-              currentPage === 1 ? "bg-primary text-white" : "bg-white"
+              currentPage === 1 ? "bg-primary text-white" : "bg-transparent"
             }`}
           >
             1
           </button>
         )}
         {currentPage > 5 && numberOfPage > 5 && (
-          <span className="border h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium bg-white">
+          <span className="border h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium bg-transparent">
             ...
           </span>
         )}
@@ -135,8 +135,10 @@ const Pagination: React.FC<PaginationProps> = ({
           <button
             key={each}
             onClick={() => setLimitHandler(each - 1)}
-            className={`border h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium ${
-              currentPage === each ? "bg-primary text-white" : "bg-white"
+            className={`border dark:border-gray-800 h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium ${
+              currentPage === each
+                ? " bg-primary-base border-none text-white "
+                : "bg-transparent"
             }`}
           >
             {each}
@@ -144,17 +146,17 @@ const Pagination: React.FC<PaginationProps> = ({
         ))}
 
         {currentPage <= numberOfPage - 5 && numberOfPage > 5 && (
-          <span className="border h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium bg-white">
+          <span className="border dark:border-gray-800 h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium bg-transparent">
             ...
           </span>
         )}
         {currentPage <= numberOfPage - 5 && numberOfPage > 5 && (
           <button
             onClick={() => setLimitHandler(numberOfPage - 1)}
-            className={`border h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium ${
+            className={`border dark:border-gray-800 h-8 w-8 flex flex-wrap justify-center items-center rounded-md text-xs lg:text-sm font-medium ${
               currentPage === numberOfPage
                 ? "bg-primary text-white"
-                : "bg-white"
+                : "bg-transparent"
             }`}
           >
             {numberOfPage}
@@ -164,12 +166,12 @@ const Pagination: React.FC<PaginationProps> = ({
         <button
           disabled={numberOfPage <= 1 || numberOfPage === currentPage}
           onClick={() => setLimitHandler(currentPage)}
-          className={`border hover:border hover:border-gray-300 transition-all ease-in-out bg-white px-4 py-2 gap-2 flex justify-center items-center rounded-md text-xs lg:text-sm ${
+          className={`border dark:border-gray-800 hover:border hover:border-gray-300 transition-all ease-in-out bg-transparent px-4 py-1.5 gap-2 flex justify-center items-center rounded-md text-xs lg:text-sm ${
             (numberOfPage <= 1 || numberOfPage === currentPage) && "opacity-50"
           }`}
         >
           <p className="font-medium text-xs lg:text-sm">Next</p>
-          <svg
+          {/* <svg
             width="14"
             height="13"
             viewBox="0 0 16 16"
@@ -190,7 +192,7 @@ const Pagination: React.FC<PaginationProps> = ({
               strokeLinecap="round"
               strokeLinejoin="round"
             />
-          </svg>
+          </svg> */}
         </button>
       </div>
     </div>

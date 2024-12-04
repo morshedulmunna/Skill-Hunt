@@ -2,6 +2,7 @@ import { filterJobs, getJobList } from "@/actions/action";
 import JobCard from "@/components/JobCard";
 import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
+import Pagination from "@/components/shared/Pagination";
 import { GetServerSideProps, NextPage } from "next";
 
 type Props = {
@@ -39,6 +40,7 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
                 <JobCard job={each} key={index} />
               </BoxWrapper>
             ))}
+            <Pagination numberOfData={50} limits={5} className="float-right" />
           </div>
         </section>
       </MaxWidthWrapper>
