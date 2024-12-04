@@ -29,10 +29,10 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
     <>
       <MaxWidthWrapper>
         <section className="h-full grid gap-2 grid-cols-12 w-full">
-          <div className="col-span-2 h-full bg-foreground dark:bg-background dark:shadow shadow-sm border-r border-l border-b dark:border-gray-200/10 border-gray-200  p-4 rounded-md">
+          <div className="col-span-3 h-full bg-foreground dark:bg-background dark:shadow shadow-sm border-r border-l border-b dark:border-gray-200/10 border-gray-200  p-4 rounded-md">
             Filter
           </div>
-          <div className="col-span-10 px-16 space-y-2  gap-2 ">
+          <div className="col-span-9 pr-16 space-y-2  gap-2 ">
             {jobList.map((each, index) => (
               <BoxWrapper className="w-full p-2">
                 <JobCard job={each} key={index} />
