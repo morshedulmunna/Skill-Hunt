@@ -34,17 +34,17 @@ const JobCard: React.FC<any> = ({ job, selectJobId }) => {
               />
             </div>
             <div>
-              <p className="mb-1 group-hover:text-blue-500 group-hover:underline">
+              <p className="mb-1 capitalize text-sm font-medium group-hover:text-blue-500 group-hover:underline">
                 {company.name}
               </p>
               <p className="text-base group-hover:text-blue-500 group-hover:underline  font-semibold">
                 {title}
-                <span className="inline-block ml-2 font-bold dark:bg-primary-lightest/20 bg-primary-lightest/50  px-2 py-1 rounded-lg text-xs">
+                <span className="inline-block ml-2 capitalize font-bold dark:bg-primary-lightest/20 bg-primary-lightest/50  px-2 py-1 rounded-lg text-xs">
                   {preferred_type}
                 </span>
               </p>
               <div className="flex items-center flex-wrap gap-2 mt-2 text-sm">
-                <div className="text-xs dark:text-tx-color text-gray-500 flex justify-start items-center gap-1">
+                <div className="text-xs capitalize dark:text-tx-color text-gray-500 flex justify-start items-center gap-1">
                   <LocationIconSvg /> <span>{details.location}</span>{" "}
                 </div>
                 <div className="text-xs dark:text-tx-color text-gray-500 flex justify-start items-center gap-1">
