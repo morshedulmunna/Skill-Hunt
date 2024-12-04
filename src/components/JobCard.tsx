@@ -23,21 +23,21 @@ const JobCard: React.FC<any> = ({ job, selectJobId }) => {
 
   return (
     <>
-      <div>
-        <div>
-          <div className="w-12 h-12 rounded bg-gray-100"></div>
+      <div className="flex justify-between p-4 items-center">
+        <div className="flex justify-start gap-2 items-start">
+          <div className="w-14 h-14 rounded bg-gray-100"></div>
           <div>
             <p>
               Senior UI UX Designer <span>Remote</span>
-              <div>
-                <div>
-                  Lo <span>Australia</span>{" "}
-                </div>
-              </div>
             </p>
+            <div>
+              <div className="text-xs dark:text-gray-700 text-gray-500">
+                Lo <span>Australia</span>{" "}
+              </div>
+            </div>
           </div>
         </div>
-        <div></div>
+        <div>right</div>
       </div>
     </>
   );
