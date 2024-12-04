@@ -7,8 +7,8 @@ const NotFound: React.FC = () => {
   const router = useRouter();
 
   return (
-    <div className="bg-white">
-      <div className="container flex items-center min-h-screen px-6 py-12 mx-auto">
+    <div className="bg-foreground dark:bg-background h-full">
+      <div className="container flex items-center h-full px-6 py-12 mx-auto">
         <div className="flex flex-col items-center max-w-sm mx-auto text-center">
           <p className="p-3 text-sm font-medium text-blue-500 rounded-full bg-blue-50 ">
             <svg
@@ -26,7 +26,7 @@ const NotFound: React.FC = () => {
               />
             </svg>
           </p>
-          <h1 className="mt-3 text-2xl font-semibold text-gray-800 md:text-3xl">
+          <h1 className="mt-3 text-2xl font-semibold dark:text-white text-gray-800 md:text-3xl">
             Page not found
           </h1>
           <p className="mt-4 text-gray-500">
