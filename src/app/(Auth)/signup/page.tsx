@@ -5,6 +5,10 @@ import BoxWrapper from "@/components/shared/BoxWrapper";
 import InputField from "@/components/ui/InputField";
 import Link from "next/link";
 import SelectionOptionDropdown from "@/components/shared/SelectionOptionDropdown";
+import { SERVER_HOST } from "@/constant";
+import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
+import Error from "next/error";
 
 type Props = {};
 
@@ -14,6 +18,8 @@ export default function SignupPage({}: Props) {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [name, setName] = useState("");
   const [accountType, setAccountType] = useState("");
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const [errors, setErrors] = useState<{
     email?: string;
@@ -54,7 +60,7 @@ export default function SignupPage({}: Props) {
     return "";
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     // Validate fields
@@ -82,13 +88,31 @@ export default function SignupPage({}: Props) {
     } else {
       setErrors({});
       // Submit form or make API call
-      console.log("Form submitted with:", {
-        email,
-        password,
-        name,
-        confirmPassword,
-        accountType,
-      });
+      try {
+        setLoading(true);
+        const res: any = await fetch(`${SERVER_HOST}/sign-up`, {
+          method: "POST",
+          body: JSON.stringify({
+            email,
+            password,
+            name,
+            accountType,
+          }),
+        });
+
+        const response = await res.json();
+        console.log(response);
+
+        if (response.statusCode === 201) {
+          toast.success(response.message);
+          router.push("/signin");
+        }
+        setLoading(false);
+      } catch (error: any) {
+        console.log("Error signing up:", error);
+        setLoading(false);
+        toast.error(error.message);
+      }
     }
   };
 

@@ -27,8 +27,6 @@ export default function SearchingSection({ category, countries }: Props) {
     query: "",
   });
 
-  console.log(searchParams, "searchParams");
-
   // Function to handle category and location selection
   const handleSelect = (type: string, value: string | number) => {
     setSearchParams((prevState) => ({ ...prevState, [type]: value }));
@@ -76,7 +74,6 @@ export default function SearchingSection({ category, countries }: Props) {
         onClick={handleSearchSubmit}
         className="bg-primary-base w-full lg:w-fit px-6 py-3 rounded text-white disabled:bg-gray-400"
       >
-        {/* {isLoading ? "Searching..." : "Search"} */}
         Search
       </button>
     </div>

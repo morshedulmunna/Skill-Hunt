@@ -4,6 +4,8 @@ import BoxWrapper from "./shared/BoxWrapper";
 import SearchingSection from "./SearchingSection";
 import { getCategories } from "@/actions/action";
 import HeroIllustratorSvgIcon from "@/assets/svg/HeroIllustratorSvgIcon";
+import Image from "next/image";
+import { image1, image2, image3 } from "@/assets";
 
 type Props = {};
 
@@ -31,9 +33,33 @@ export default async function HeroSection({}: Props) {
 
         <div className="max-w-[200px] mt-12">
           <div className="flex items-center mb-1">
-            <div className="w-8  h-8 rounded-full border border-white p-2 bg-red-200"></div>
-            <div className="w-8 -ml-2 h-8 rounded-full border border-white p-2 bg-red-200"></div>
-            <div className="w-8 -ml-2 h-8 rounded-full border border-white p-2 bg-red-200"></div>
+            <div className="w-8  h-8 rounded-full border border-gray-700 bg-white dark:bg-background  ">
+              <Image
+                className="w-full h-full rounded-full object-cover"
+                width={500}
+                height={500}
+                src={image1}
+                alt="profile_image"
+              />
+            </div>
+            <div className="w-8 -ml-2 h-8 rounded-full border border-gray-700 bg-white dark:bg-background  ">
+              <Image
+                className="w-full h-full rounded-full object-cover"
+                width={500}
+                height={500}
+                src={image2}
+                alt="profile_image"
+              />
+            </div>
+            <div className="w-8 -ml-2 h-8 rounded-full border border-gray-700 bg-white dark:bg-background  ">
+              <Image
+                className="w-full h-full rounded-full object-cover"
+                src={image3}
+                width={500}
+                height={500}
+                alt="profile_image"
+              />
+            </div>
           </div>
 
           <p>
