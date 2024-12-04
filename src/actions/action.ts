@@ -124,8 +124,18 @@ export const filterJobs = async (filters: {
       const queryMatch =
         filters.query &&
         filters.query.trim() !== "" &&
-        (job.title.toLowerCase().includes(filters.query.toLowerCase()) ||
-          job.description.toLowerCase().includes(filters.query.toLowerCase()));
+        (() => {
+          const regex = new RegExp(filters.query.trim(), "i");
+          return (
+            regex.test(job.title) ||
+            regex.test(job.description) ||
+            regex.test(job.company.name) ||
+            regex.test(job.salary) ||
+            regex.test(job.preferred_type) ||
+            regex.test(job.details.location) ||
+            regex.test(job.details.jobDescription)
+          );
+        })();
 
       const locationMatch =
         filters.location &&
