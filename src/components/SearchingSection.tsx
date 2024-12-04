@@ -61,7 +61,7 @@ export default function SearchingSection({
 
       <div className="w-full">
         <SearchInput
-          placeholder="Search your expected category jobs"
+          placeholder="Search your expected types jobs, ex:software engineer"
           onSearch={handleSearch}
         />
       </div>
