@@ -47,7 +47,7 @@ export default function SignInPage({}: Props) {
 
   return (
     <div className="h-full w-full flex justify-center items-center">
-      <BoxWrapper className="dark:bg-gray-800 w-full rounded max-w-[450px] mx-auto">
+      <BoxWrapper className="dark:bg-gray-800/20 w-full rounded max-w-[450px] mx-auto">
         <div className="p-4 ">
           <h2 className="text-start mb-2 text-xl font-semibold">Sign in</h2>
           <div className="flex gap-2 flex-wrap">

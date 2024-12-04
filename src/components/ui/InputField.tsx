@@ -27,7 +27,7 @@ const InputField: React.FC<InputFieldProps> = ({
     <div className="mb-4 relative">
       <label
         htmlFor={label}
-        className="block text-sm font-medium dark:text-white text-gray-700"
+        className="block text-sm font-semibold dark:text-white text-gray-700"
       >
         {label}
       </label>
@@ -50,8 +50,8 @@ const InputField: React.FC<InputFieldProps> = ({
             {showPassword ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="14"
+                height="14"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -66,8 +66,8 @@ const InputField: React.FC<InputFieldProps> = ({
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="14"
+                height="14"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
