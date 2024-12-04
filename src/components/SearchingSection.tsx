@@ -8,9 +8,10 @@ import { generateSearchQueryUrl } from "@/utils";
 
 type Props = {
   category: [];
+  countries: [];
 };
 
-export default function SearchingSection({ category }: Props) {
+export default function SearchingSection({ category, countries }: Props) {
   const router = useRouter();
   let categoryOption = [] as any;
   if (category.length > 0) {
@@ -56,11 +57,7 @@ export default function SearchingSection({ category }: Props) {
         <SelectionOptionDropdown
           className="py-2 w-24 border-none"
           defaultValue="Select Location"
-          options={[
-            { label: "Skill", value: "skill" },
-            { label: "Language", value: "language" },
-            { label: "Location", value: "location" },
-          ]}
+          options={countries}
           onSelect={(option) => handleSelect("location", option.value)}
         />
       </div>

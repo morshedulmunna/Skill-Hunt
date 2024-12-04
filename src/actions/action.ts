@@ -324,3 +324,32 @@ export const deleteJobById = async (
     };
   }
 };
+
+export const getCountryList = async (): Promise<JobListResponse> => {
+  try {
+    const filePath = path.join(
+      process.cwd(),
+      "public",
+      "assets",
+      "country.list.json"
+    );
+
+    // Read Data from JSON File && passing
+    const countryData = await fs.readFile(filePath, "utf-8");
+    const countries = JSON.parse(countryData);
+
+    return {
+      message: "Filtered jobs retrieved successfully",
+      results: countries,
+      success: true,
+      statusCode: 200,
+    };
+  } catch (error) {
+    console.error("Error filtering jobs:", error);
+    return {
+      message: "Failed to filter jobs",
+      success: false,
+      statusCode: 500,
+    };
+  }
+};
