@@ -5,12 +5,19 @@ import SearchingSection from "@/components/SearchingSection";
 import { CircularShapes } from "@/components/shapes/CircularShapes";
 import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
+import { SERVER_HOST } from "@/constant";
 
 export default async function Home(): Promise<React.ReactElement> {
   const category = (await getCategories()) as any;
-  const countries = (await getCountryList()) as any;
-
-  // console.log(category);
+  let countriesOptions = [] as any;
+  try {
+    const countries = await fetch(`${SERVER_HOST}/location-list`);
+    const response = (await countries.json()) as any;
+    countriesOptions = response.results.locationOption;
+  } catch (error) {
+    console.error("Error fetching countries:", error);
+    countriesOptions = [];
+  }
 
   return (
     <div className="w-full h-full">
@@ -29,7 +36,7 @@ export default async function Home(): Promise<React.ReactElement> {
         <BoxWrapper className="w-full mx-auto   flex items-center justify-start px-3 py-6  h-auto lg:h-[80px] border-gray-100/90  relative z-20 ">
           <SearchingSection
             category={category.results}
-            countries={countries.results}
+            countries={countriesOptions}
           />
         </BoxWrapper>
       </MaxWidthWrapper>

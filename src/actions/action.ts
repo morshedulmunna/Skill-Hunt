@@ -277,7 +277,7 @@ export const getCategories = async (): Promise<JobListResponse> => {
 
     // console.log(job);
 
-    const se = new Set((job as any).flatMap((i: any) => i.type));
+    const se = new Set((job as any).map((i: any) => i.preferred_type));
 
     const categories = Array.from(se);
 
