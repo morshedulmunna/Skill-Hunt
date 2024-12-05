@@ -22,7 +22,6 @@ https://skill-hunt-two.vercel.app/
 - [Running the Application](#running-the-application)
 - [Features Implemented](#features-implemented)
 - [Assumptions and Limitations](#assumptions-and-limitations)
-- [Testing](#testing)
 - [Deployment](#deployment)
 
 ---
@@ -117,7 +116,7 @@ The Dynamic Job Board Platform is a feature-rich, pixel-perfect responsive web a
   npm start
   ```
 
-## Features Implemented\_\_
+## Features Implemented
 
 ### Core Features:
 
