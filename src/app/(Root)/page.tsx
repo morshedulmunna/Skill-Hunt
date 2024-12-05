@@ -37,7 +37,7 @@ export default async function Home(): Promise<React.ReactElement> {
         <MaxWidthWrapper>
           <h2 className="mb-4 text-xl font-semibold">Features Jobs</h2>
         </MaxWidthWrapper>
-        <MaxWidthWrapper className=" max-w-screen-2xl">
+        <MaxWidthWrapper className=" max-w-screen-xl">
           <FeaturesJobCarousel />
         </MaxWidthWrapper>
       </div>

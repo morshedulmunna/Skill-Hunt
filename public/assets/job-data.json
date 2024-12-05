@@ -2,6 +2,7 @@
     {
         "id": "77b19637-5027-4d8d-9b1e-2c8b5a5e8691",
         "title": "Frontend Developer",
+        "features": true,
         "company": {
             "name": "Google",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
@@ -65,6 +66,7 @@
     {
         "id": "5cde8734-7124-4b7d-8f97-3a4d2e3f7c11",
         "title": "Backend Developer",
+        "features": false,
         "company": {
             "name": "Amazon",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
@@ -124,6 +126,7 @@
     {
         "id": "4bda9943-3121-4fb0-8a58-df183b98e231",
         "title": "Backend Engineer",
+        "features": true,
         "company": {
             "name": "Google",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
@@ -183,6 +186,7 @@
     {
         "id": "7a1b3421-5f54-4db6-bcb5-b2bbf7f74c3b",
         "title": "Backend Developer",
+        "features": true,
         "company": {
             "name": "Microsoft",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
@@ -242,6 +246,7 @@
     {
         "id": "fa51d348-bc72-4b0a-85a7-7888b08d8041",
         "title": "Backend Engineer",
+        "features": true,
         "company": {
             "name": "Meta",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
@@ -301,6 +306,367 @@
     {
         "id": "3e4f2a87-75f5-47a3-a0d1-4fba6f9b6a89",
         "title": "Backend Developer",
+        "features": true,
+        "company": {
+            "name": "Apple",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
+            "website": "https://www.apple.com",
+            "industry": "Technology",
+            "headquarters": "Cupertino, California, USA",
+            "founded": "April 1, 1976",
+            "employees": "164,000+",
+            "mission": "To create the best products on earth, and to leave the world better than we found it.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/apple",
+                "twitter": "https://twitter.com/Apple",
+                "facebook": "https://www.facebook.com/apple",
+                "instagram": "https://www.instagram.com/apple"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Top 50 Best Employers - Forbes (2024)",
+                "World’s Most Innovative Companies - Fast Company (2023)"
+            ]
+        },
+        "degree": "BSc in Software Engineering",
+        "description": "Develop next-generation backend solutions for Apple's ecosystem.",
+        "type": [
+            "Full-Time",
+            "Mid-Level",
+            "Remote"
+        ],
+        "salary": "$14k/month",
+        "preferred_type": "remote",
+        "timePosted": "5 hours ago",
+        "bookmarked": true,
+        "applicants": "200+ applicants",
+        "details": {
+            "location": "Canada",
+            "positionType": "Remote",
+            "experience": "Mid-Level",
+            "postedDate": "2 Dec, 2024",
+            "baseSalary": "$14k/month",
+            "responsibilities": [
+                "Build backend services for Apple's iCloud platform.",
+                "Develop and maintain APIs to support Apple's consumer-facing applications.",
+                "Work closely with the mobile team to ensure seamless app-backend integration.",
+                "Optimize backend performance for millions of concurrent users.",
+                "Implement data encryption and privacy protections in backend systems."
+            ],
+            "qualifications": [
+                "4+ years of experience in backend development.",
+                "Proficiency in Swift, Objective-C, or Python.",
+                "Experience with cloud platforms like AWS or Azure.",
+                "Familiarity with Apple’s ecosystem and frameworks.",
+                "Strong problem-solving skills and attention to detail."
+            ],
+            "jobDescription": "As a Backend Developer at Apple, you will play a key role in designing scalable and secure backend systems for iCloud, Apple Music, and other major Apple services, impacting millions of users worldwide."
+        }
+    },
+    {
+        "id": "3e4f2a87-72f5-47a3-a0d1-4fba6f9b6a89",
+        "title": "Backend Developer",
+        "features": true,
+        "company": {
+            "name": "Apple",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
+            "website": "https://www.apple.com",
+            "industry": "Technology",
+            "headquarters": "Cupertino, California, USA",
+            "founded": "April 1, 1976",
+            "employees": "164,000+",
+            "mission": "To create the best products on earth, and to leave the world better than we found it.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/apple",
+                "twitter": "https://twitter.com/Apple",
+                "facebook": "https://www.facebook.com/apple",
+                "instagram": "https://www.instagram.com/apple"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Top 50 Best Employers - Forbes (2024)",
+                "World’s Most Innovative Companies - Fast Company (2023)"
+            ]
+        },
+        "degree": "BSc in Software Engineering",
+        "description": "Develop next-generation backend solutions for Apple's ecosystem.",
+        "type": [
+            "Full-Time",
+            "Mid-Level",
+            "Remote"
+        ],
+        "salary": "$14k/month",
+        "preferred_type": "remote",
+        "timePosted": "5 hours ago",
+        "bookmarked": true,
+        "applicants": "200+ applicants",
+        "details": {
+            "location": "Canada",
+            "positionType": "Remote",
+            "experience": "Mid-Level",
+            "postedDate": "2 Dec, 2024",
+            "baseSalary": "$14k/month",
+            "responsibilities": [
+                "Build backend services for Apple's iCloud platform.",
+                "Develop and maintain APIs to support Apple's consumer-facing applications.",
+                "Work closely with the mobile team to ensure seamless app-backend integration.",
+                "Optimize backend performance for millions of concurrent users.",
+                "Implement data encryption and privacy protections in backend systems."
+            ],
+            "qualifications": [
+                "4+ years of experience in backend development.",
+                "Proficiency in Swift, Objective-C, or Python.",
+                "Experience with cloud platforms like AWS or Azure.",
+                "Familiarity with Apple’s ecosystem and frameworks.",
+                "Strong problem-solving skills and attention to detail."
+            ],
+            "jobDescription": "As a Backend Developer at Apple, you will play a key role in designing scalable and secure backend systems for iCloud, Apple Music, and other major Apple services, impacting millions of users worldwide."
+        }
+    },
+    {
+        "id": "3e4f2a87-72f5-47a3-a0d1-4fba6f956a89",
+        "title": "Backend Developer",
+        "features": true,
+        "company": {
+            "name": "Apple",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
+            "website": "https://www.apple.com",
+            "industry": "Technology",
+            "headquarters": "Cupertino, California, USA",
+            "founded": "April 1, 1976",
+            "employees": "164,000+",
+            "mission": "To create the best products on earth, and to leave the world better than we found it.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/apple",
+                "twitter": "https://twitter.com/Apple",
+                "facebook": "https://www.facebook.com/apple",
+                "instagram": "https://www.instagram.com/apple"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Top 50 Best Employers - Forbes (2024)",
+                "World’s Most Innovative Companies - Fast Company (2023)"
+            ]
+        },
+        "degree": "BSc in Software Engineering",
+        "description": "Develop next-generation backend solutions for Apple's ecosystem.",
+        "type": [
+            "Full-Time",
+            "Mid-Level",
+            "Remote"
+        ],
+        "salary": "$14k/month",
+        "preferred_type": "remote",
+        "timePosted": "5 hours ago",
+        "bookmarked": true,
+        "applicants": "200+ applicants",
+        "details": {
+            "location": "Canada",
+            "positionType": "Remote",
+            "experience": "Mid-Level",
+            "postedDate": "2 Dec, 2024",
+            "baseSalary": "$14k/month",
+            "responsibilities": [
+                "Build backend services for Apple's iCloud platform.",
+                "Develop and maintain APIs to support Apple's consumer-facing applications.",
+                "Work closely with the mobile team to ensure seamless app-backend integration.",
+                "Optimize backend performance for millions of concurrent users.",
+                "Implement data encryption and privacy protections in backend systems."
+            ],
+            "qualifications": [
+                "4+ years of experience in backend development.",
+                "Proficiency in Swift, Objective-C, or Python.",
+                "Experience with cloud platforms like AWS or Azure.",
+                "Familiarity with Apple’s ecosystem and frameworks.",
+                "Strong problem-solving skills and attention to detail."
+            ],
+            "jobDescription": "As a Backend Developer at Apple, you will play a key role in designing scalable and secure backend systems for iCloud, Apple Music, and other major Apple services, impacting millions of users worldwide."
+        }
+    },
+    {
+        "id": "3e4f2a87-72f5-47a3-a0d1-4f26f9b6a89",
+        "title": "Backend Developer",
+        "features": true,
+        "company": {
+            "name": "Apple",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
+            "website": "https://www.apple.com",
+            "industry": "Technology",
+            "headquarters": "Cupertino, California, USA",
+            "founded": "April 1, 1976",
+            "employees": "164,000+",
+            "mission": "To create the best products on earth, and to leave the world better than we found it.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/apple",
+                "twitter": "https://twitter.com/Apple",
+                "facebook": "https://www.facebook.com/apple",
+                "instagram": "https://www.instagram.com/apple"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Top 50 Best Employers - Forbes (2024)",
+                "World’s Most Innovative Companies - Fast Company (2023)"
+            ]
+        },
+        "degree": "BSc in Software Engineering",
+        "description": "Develop next-generation backend solutions for Apple's ecosystem.",
+        "type": [
+            "Full-Time",
+            "Mid-Level",
+            "Remote"
+        ],
+        "salary": "$14k/month",
+        "preferred_type": "remote",
+        "timePosted": "5 hours ago",
+        "bookmarked": true,
+        "applicants": "200+ applicants",
+        "details": {
+            "location": "Canada",
+            "positionType": "Remote",
+            "experience": "Mid-Level",
+            "postedDate": "2 Dec, 2024",
+            "baseSalary": "$14k/month",
+            "responsibilities": [
+                "Build backend services for Apple's iCloud platform.",
+                "Develop and maintain APIs to support Apple's consumer-facing applications.",
+                "Work closely with the mobile team to ensure seamless app-backend integration.",
+                "Optimize backend performance for millions of concurrent users.",
+                "Implement data encryption and privacy protections in backend systems."
+            ],
+            "qualifications": [
+                "4+ years of experience in backend development.",
+                "Proficiency in Swift, Objective-C, or Python.",
+                "Experience with cloud platforms like AWS or Azure.",
+                "Familiarity with Apple’s ecosystem and frameworks.",
+                "Strong problem-solving skills and attention to detail."
+            ],
+            "jobDescription": "As a Backend Developer at Apple, you will play a key role in designing scalable and secure backend systems for iCloud, Apple Music, and other major Apple services, impacting millions of users worldwide."
+        }
+    },
+    {
+        "id": "3e4f2a87-74f5-47a3-a0d1-4fba6f9b6a89",
+        "title": "Backend Developer",
+        "features": true,
+        "company": {
+            "name": "Apple",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
+            "website": "https://www.apple.com",
+            "industry": "Technology",
+            "headquarters": "Cupertino, California, USA",
+            "founded": "April 1, 1976",
+            "employees": "164,000+",
+            "mission": "To create the best products on earth, and to leave the world better than we found it.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/apple",
+                "twitter": "https://twitter.com/Apple",
+                "facebook": "https://www.facebook.com/apple",
+                "instagram": "https://www.instagram.com/apple"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Top 50 Best Employers - Forbes (2024)",
+                "World’s Most Innovative Companies - Fast Company (2023)"
+            ]
+        },
+        "degree": "BSc in Software Engineering",
+        "description": "Develop next-generation backend solutions for Apple's ecosystem.",
+        "type": [
+            "Full-Time",
+            "Mid-Level",
+            "Remote"
+        ],
+        "salary": "$14k/month",
+        "preferred_type": "remote",
+        "timePosted": "5 hours ago",
+        "bookmarked": true,
+        "applicants": "200+ applicants",
+        "details": {
+            "location": "Canada",
+            "positionType": "Remote",
+            "experience": "Mid-Level",
+            "postedDate": "2 Dec, 2024",
+            "baseSalary": "$14k/month",
+            "responsibilities": [
+                "Build backend services for Apple's iCloud platform.",
+                "Develop and maintain APIs to support Apple's consumer-facing applications.",
+                "Work closely with the mobile team to ensure seamless app-backend integration.",
+                "Optimize backend performance for millions of concurrent users.",
+                "Implement data encryption and privacy protections in backend systems."
+            ],
+            "qualifications": [
+                "4+ years of experience in backend development.",
+                "Proficiency in Swift, Objective-C, or Python.",
+                "Experience with cloud platforms like AWS or Azure.",
+                "Familiarity with Apple’s ecosystem and frameworks.",
+                "Strong problem-solving skills and attention to detail."
+            ],
+            "jobDescription": "As a Backend Developer at Apple, you will play a key role in designing scalable and secure backend systems for iCloud, Apple Music, and other major Apple services, impacting millions of users worldwide."
+        }
+    },
+    {
+        "id": "3e4f2a83-72f5-47a3-a0d1-4fba6f9b6a89",
+        "title": "Backend Developer",
+        "features": true,
+        "company": {
+            "name": "Apple",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
+            "website": "https://www.apple.com",
+            "industry": "Technology",
+            "headquarters": "Cupertino, California, USA",
+            "founded": "April 1, 1976",
+            "employees": "164,000+",
+            "mission": "To create the best products on earth, and to leave the world better than we found it.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/apple",
+                "twitter": "https://twitter.com/Apple",
+                "facebook": "https://www.facebook.com/apple",
+                "instagram": "https://www.instagram.com/apple"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Top 50 Best Employers - Forbes (2024)",
+                "World’s Most Innovative Companies - Fast Company (2023)"
+            ]
+        },
+        "degree": "BSc in Software Engineering",
+        "description": "Develop next-generation backend solutions for Apple's ecosystem.",
+        "type": [
+            "Full-Time",
+            "Mid-Level",
+            "Remote"
+        ],
+        "salary": "$14k/month",
+        "preferred_type": "remote",
+        "timePosted": "5 hours ago",
+        "bookmarked": true,
+        "applicants": "200+ applicants",
+        "details": {
+            "location": "Canada",
+            "positionType": "Remote",
+            "experience": "Mid-Level",
+            "postedDate": "2 Dec, 2024",
+            "baseSalary": "$14k/month",
+            "responsibilities": [
+                "Build backend services for Apple's iCloud platform.",
+                "Develop and maintain APIs to support Apple's consumer-facing applications.",
+                "Work closely with the mobile team to ensure seamless app-backend integration.",
+                "Optimize backend performance for millions of concurrent users.",
+                "Implement data encryption and privacy protections in backend systems."
+            ],
+            "qualifications": [
+                "4+ years of experience in backend development.",
+                "Proficiency in Swift, Objective-C, or Python.",
+                "Experience with cloud platforms like AWS or Azure.",
+                "Familiarity with Apple’s ecosystem and frameworks.",
+                "Strong problem-solving skills and attention to detail."
+            ],
+            "jobDescription": "As a Backend Developer at Apple, you will play a key role in designing scalable and secure backend systems for iCloud, Apple Music, and other major Apple services, impacting millions of users worldwide."
+        }
+    },
+    {
+        "id": "3e4f2387-72f5-47a3-a0d1-4fba6f9b6a89",
+        "title": "Backend Developer",
+        "features": true,
         "company": {
             "name": "Apple",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
