@@ -104,14 +104,12 @@ export default function ToggleMobileMenu({ className }: Props) {
               <p> Sign out</p>
             </div>
           ) : (
-            <div>
-              <Link
-                href={"/signin"}
-                className=" flex justify-center gap-2 px-6  rounded-md border dark:border-gray-800 w-fit items-center text-primary-base  font-semibold py-2"
-              >
-                Sign in
-              </Link>
-            </div>
+            <Link
+              href={"/signin"}
+              className=" flex justify-center gap-2 px-6  rounded-md border dark:border-gray-800 w-fit items-center text-primary-base  font-semibold py-2"
+            >
+              Sign in
+            </Link>
           )}
         </div>
       </div>
