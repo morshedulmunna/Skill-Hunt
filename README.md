@@ -7,6 +7,12 @@ https://skill-hunt-two.vercel.app/
 
 [Live Demo URL](https://skill-hunt-two.vercel.app/)
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
 ## Table of Contents
 
 - [Overview](#overview)
