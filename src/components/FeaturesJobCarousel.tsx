@@ -1,22 +1,14 @@
 "use client";
 
+import ScrollingItems from "./shared/AutoPlayCarousel";
 import AutoPlayCarousel from "./shared/AutoPlayCarousel";
 
-// type Job = {
-//   id: number;
-//   title: string;
-//   company: string;
-//   location: string;
-// };
-
-type Props = {
-  //   jobs: Job[];
-};
+type Props = {};
 
 export default function FeaturesJobCarousel({}: Props) {
   return (
     <>
-      <AutoPlayCarousel />
+      <ScrollingItems />
     </>
   );
 }

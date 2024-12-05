@@ -14,7 +14,7 @@ export async function GET(request: Request) {
       location: queryParams.get("location") || "",
       category: queryParams.get("category") || "",
       page: Number(queryParams.get("page")) || 1,
-      limit: Number(queryParams.get("limit")) || 5,
+      limit: Number(queryParams.get("limit")) || 8,
     };
 
     const filePath = path.join(
