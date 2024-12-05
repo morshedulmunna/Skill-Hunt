@@ -1,8 +1,5 @@
 import React from "react";
 import MaxWidthWrapper from "./shared/MaxWidthWrapper";
-import BoxWrapper from "./shared/BoxWrapper";
-import SearchingSection from "./SearchingSection";
-import { getCategories } from "@/actions/action";
 import HeroIllustratorSvgIcon from "@/assets/svg/HeroIllustratorSvgIcon";
 import Image from "next/image";
 import { image1, image2, image3 } from "@/assets";

@@ -4,14 +4,18 @@ type Props = {
   onSearch: (query: string) => void;
   placeholder?: string;
   isLoading?: boolean;
+  value: string | number | any;
+  className?: string;
 };
 
 function SearchInput({
   onSearch,
+  value,
   placeholder = "Search",
+  className,
   isLoading = false,
 }: Props) {
-  const [query, setQuery] = useState<string>("");
+  const [query, setQuery] = useState<string>(value);
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
@@ -28,7 +32,7 @@ function SearchInput({
 
   return (
     <input
-      className="px-4 bg-transparent dark:border-gray-800 py-3 rounded w-full outline-none"
+      className={`px-4 bg-transparent dark:border-gray-800 py-3 rounded w-full outline-none ${className}`}
       type="search"
       id="search-input"
       placeholder={placeholder}

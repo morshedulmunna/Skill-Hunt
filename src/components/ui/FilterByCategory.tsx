@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 type FilterOption = {
   value: string;
@@ -9,52 +9,64 @@ type FilterOption = {
 
 type FilterComponentProps = {
   options: FilterOption[];
-  value: {
-    value: string;
-    label: string;
+  value: FilterOption;
+  onChange: (selectedOption: FilterOption) => void;
+  styles?: {
+    container?: string;
+    list?: string;
+    listItem?: string;
+    label?: string;
+    input?: string;
+    span?: string;
   };
-  onChange: (selectedOption: { value: string; label: string }) => void;
 };
 
 const FilterByCategory: React.FC<FilterComponentProps> = ({
   options,
   value,
   onChange,
+  styles = {},
 }) => {
-  const [selectedOption, setSelectedOption] = useState<{
-    value: string;
-    label: string;
-  }>(value);
+  const [selectedOption, setSelectedOption] = useState<FilterOption>(value);
 
-  const handleChange = (option: { value: string; label: string }) => {
+  useEffect(() => {
+    setSelectedOption(value);
+  }, [value]);
+
+  const handleChange = (option: FilterOption) => {
     setSelectedOption(option);
     onChange(option);
   };
 
   return (
-    <div className="p-4">
-      <h3 className="text-lg font-bold mb-4">Filters</h3>
-      <hr />
-      <div className="my-4">
-        <h4 className="text-sm font-semibold mb-2">Job Category</h4>
-        <ul className="space-y-2">
-          {options.map((option) => (
-            <li key={option.value}>
-              <label className="flex capitalize text-sm cursor-pointer items-center space-x-2">
-                <input
-                  type="radio"
-                  name="job-category"
-                  value={selectedOption.value}
-                  checked={selectedOption.value === option.value}
-                  onChange={() => handleChange(option)}
-                  className="w-4 h-4 text-blue-600 cursor-pointer border-gray-300 focus:ring-blue-500"
-                />
-                <span className="text-gray-700">{option.label}</span>
-              </label>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div className={`my-4 ${styles.container || ""}`}>
+      <ul className={`space-y-2 ${styles.list || ""}`}>
+        {options.map((option) => (
+          <li key={option.value} className={styles.listItem || ""}>
+            <label
+              className={`flex capitalize text-sm cursor-pointer items-center space-x-2 ${
+                styles.label || ""
+              }`}
+            >
+              <input
+                type="radio"
+                name={value.value}
+                value={option.value}
+                checked={selectedOption.value === option.value}
+                onChange={() => handleChange(option)}
+                className={`w-4 h-4 text-blue-600 cursor-pointer border-gray-300  focus:ring-blue-500 ${
+                  styles.input || ""
+                }`}
+              />
+              <span
+                className={`text-gray-700 dark:text-white ${styles.span || ""}`}
+              >
+                {option.label}
+              </span>
+            </label>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

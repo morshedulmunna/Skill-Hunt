@@ -26,10 +26,17 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
   let countriesOptions = [] as any;
   let categoriesOptions = [] as any;
 
+  const fetchData = async (url: string) => {
+    "use server";
+    const response = await fetch(url);
+    const data = await response.json();
+    return data;
+  };
+
   try {
     // fetching Job list
-    const res = await fetch(url);
-    const data = await res.json();
+
+    const data = await fetchData(url);
 
     jobList = data?.results?.jobList;
     totalCount = data?.results?.pagination?.totalResults;
@@ -50,7 +57,11 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
       <MaxWidthWrapper className="mb-12 h-full mt-6">
         <section className="h-full grid gap-2 grid-cols-12 w-full">
           <div className=" col-span-12 lg:col-span-3 h-full bg-foreground dark:bg-background dark:shadow shadow-sm border dark:border-gray-200/10 border-gray-200  p-4 rounded-md">
-            <FilterComponents categoriesOptions={categoriesOptions} />
+            <FilterComponents
+              countriesOptions={countriesOptions}
+              categoriesOptions={categoriesOptions}
+              fetchData={fetchData}
+            />
           </div>
           <div className=" col-span-12 flex flex-col h-full lg:col-span-9 overflow-y-auto lg:pr-16 space-y-2  gap-2 ">
             <div className="flex-1 space-y-4">
