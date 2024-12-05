@@ -5,16 +5,19 @@ import FilterByCategory from "./ui/FilterByCategory";
 import SearchInput from "./shared/SearchInput";
 import { useRouter } from "next/navigation";
 import { generateSearchQueryUrl } from "@/utils";
+import { X } from "lucide-react";
 
 type Props = {
   categoriesOptions: any[];
   countriesOptions: any[];
+  setToggleFilter?: any;
   fetchData?: any;
 };
 
 export default function FilterComponents({
   categoriesOptions,
   countriesOptions,
+  setToggleFilter,
 }: Props) {
   const router = useRouter();
   const [search, setSearch] = useState("");
@@ -47,7 +50,13 @@ export default function FilterComponents({
 
   return (
     <div>
-      <h3 className="text-lg font-bold my-4">Filters</h3>
+      <div className="flex items-center justify-between">
+        <h3 className="text-lg font-bold my-4">Filters</h3>
+        <X
+          onClick={() => setToggleFilter(false)}
+          className="border lg:hidden cursor-pointer "
+        />
+      </div>
       <hr className="dark:border-gray-800" />
       <div className="mt-4 relative">
         {/* <Search className="mb-2 absolute top-3" /> */}
@@ -63,7 +72,10 @@ export default function FilterComponents({
         <FilterByCategory
           value={selectedCategory}
           options={categoriesOptions}
-          onChange={(selectedOption) => setSelectedCategory(selectedOption)}
+          onChange={(selectedOption) => {
+            setSelectedCategory(selectedOption);
+            setToggleFilter(false);
+          }}
           styles={{
             container: "border dark:border-gray-800 p-4 rounded shadow-sm",
             list: "flex flex-col gap-2",
@@ -77,7 +89,10 @@ export default function FilterComponents({
         <FilterByCategory
           value={selectedCountry}
           options={countriesOptions}
-          onChange={(selectedOption) => setSelectedCountry(selectedOption)}
+          onChange={(selectedOption) => {
+            setSelectedCountry(selectedOption);
+            setToggleFilter(false);
+          }}
           styles={{
             container: "border dark:border-gray-800 p-4 rounded shadow-sm",
             list: "flex flex-col gap-2",
