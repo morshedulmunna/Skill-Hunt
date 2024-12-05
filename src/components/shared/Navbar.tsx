@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
@@ -6,6 +8,9 @@ import ThemeToggler from "../ThemeToggler";
 import PostJobButton from "../PostJobButton";
 import SignInSignoutProfile from "../SignInSignoutProfile";
 import DashboardButton from "../DashboardButton";
+import { Menu } from "lucide-react";
+import ToggleMobileMenu from "../ToggleMobileMenu";
+import { usePathname } from "next/navigation";
 
 interface NavItem {
   label: string;
@@ -13,6 +18,7 @@ interface NavItem {
 }
 
 export default function Navbar(): JSX.Element {
+  const path = usePathname();
   const navItems: NavItem[] = [
     {
       label: "Find a Job",
@@ -34,7 +40,9 @@ export default function Navbar(): JSX.Element {
               prefetch
               key={each.href}
               href={each.href}
-              className="whitespace-nowrap hidden lg:block font-medium dark:hover:text-primary-lighter hover:text-primary-dark  transition-all ease-linear py-1 mx-2 w-full"
+              className={` ${
+                path === each.href && "text-primary-base font-semibold"
+              } whitespace-nowrap hidden lg:block font-medium dark:hover:text-primary-lighter hover:text-primary-dark  transition-all ease-linear py-1 mx-2 w-full`}
             >
               {each.label}
             </Link>
@@ -46,9 +54,10 @@ export default function Navbar(): JSX.Element {
             <div className="flex gap-6 items-center justify-end">
               <SignInSignoutProfile />
               <PostJobButton />
-              <ThemeToggler />
             </div>
           </div>
+          <ThemeToggler />
+          <ToggleMobileMenu className={"lg:hidden "} />
         </div>
       </div>
     </MaxWidthWrapper>

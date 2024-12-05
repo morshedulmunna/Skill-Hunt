@@ -10,13 +10,17 @@ export default async function HeroSection({}: Props) {
   return (
     <MaxWidthWrapper
       className={
-        "w-full flex justify-center flex-col lg:flex-row gap-0 lg:gap-16 items-center mt-20 pb-20 h-auto"
+        "w-full flex justify-center flex-col md:flex-row gap-0 lg:gap-16 items-center lg:mt-20 pb-20 h-auto"
       }
     >
+      <div className="w-full md:hidden space-y-2">
+        <div className="w-full   h-1 rounded-full bg-gray-100 dark:bg-gray-900/80 animate-pulse"></div>
+        <div className="w-full   h-1 rounded-full bg-gray-100 dark:bg-gray-900/80 animate-pulse"></div>
+      </div>
       <div className="w-full lg:w-1/2">
         <div className="max-w-[460px]">
           <div
-            className=" text-2xl text-center md:text-start md:text-4xl my-4 md:leading-[50px] tracking-wide font-semibold"
+            className=" text-3xl text-center md:text-start md:text-4xl my-4 md:leading-[50px] tracking-wide font-semibold"
             itemType="Heading"
           >
             Find a Jobs That Suits your interest & skills
