@@ -1,3 +1,5 @@
+import { getCategoriesFn } from "@/actions/getCategoryOptions";
+import { getLocationList } from "@/actions/getLocationListOptions";
 import FeaturesJobCarousel from "@/components/FeaturesJobCarousel";
 import HeroSection from "@/components/HeroSection";
 import SearchingSection from "@/components/SearchingSection";
@@ -7,21 +9,8 @@ import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 import { SERVER_HOST } from "@/constant";
 
 export default async function Home(): Promise<React.ReactElement> {
-  let countriesOptions = [] as any;
-  let categoriesOptions = [] as any;
-  try {
-    const countries = await fetch(`${SERVER_HOST}/location-list`);
-    const response = (await countries.json()) as any;
-    countriesOptions = response.results.locationOption;
-
-    const res = await fetch(`${SERVER_HOST}/categoris-list`);
-    const categoriesResponse = (await res.json()) as any;
-    categoriesOptions = categoriesResponse.results.categoriesListOption;
-  } catch (error) {
-    console.error("Error fetching countries:", error);
-    countriesOptions = [];
-    categoriesOptions = [];
-  }
+  const countriesOptions = (await getLocationList()) as any;
+  const categoriesOptions = (await getCategoriesFn()) as any;
 
   return (
     <div className="w-full h-full">

@@ -2,9 +2,10 @@
 
 import React, { useEffect, useState } from "react";
 import FilterByCategory from "./ui/FilterByCategory";
-import { Search } from "lucide-react";
-import SearchingSection from "./SearchingSection";
 import SearchInput from "./shared/SearchInput";
+import { SERVER_HOST } from "@/constant";
+import { useRouter } from "next/navigation";
+import { generateSearchQueryUrl } from "@/utils";
 
 type Props = {
   categoriesOptions: any[];
@@ -16,6 +17,7 @@ export default function FilterComponents({
   categoriesOptions,
   countriesOptions,
 }: Props) {
+  const router = useRouter();
   const [search, setSearch] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<{
     label: string;
@@ -34,15 +36,13 @@ export default function FilterComponents({
 
   // Update searchParams and call API when dependencies change
   useEffect(() => {
-    const params = new URLSearchParams();
+    const searchParams = generateSearchQueryUrl({
+      category: selectedCategory.value,
+      location: selectedCountry.value,
+      query: search,
+    });
 
-    if (search) params.append("search", search);
-    if (selectedCategory.value)
-      params.append("category", selectedCategory.value);
-    if (selectedCountry.value) params.append("country", selectedCountry.value);
-
-    const queryString = params.toString();
-    // setSearchParams(queryString);
+    router.push(`/job-search?${searchParams}`);
   }, [search, selectedCategory, selectedCountry]);
 
   return (

@@ -1,3 +1,6 @@
+import { getCategoriesFn } from "@/actions/getCategoryOptions";
+import { getJobListFn } from "@/actions/getJobList";
+import { getLocationList } from "@/actions/getLocationListOptions";
 import FilterComponents from "@/components/FilterComponents";
 import JobCard from "@/components/JobCard";
 import JobSearchPagination from "@/components/JobSearchPagination";
@@ -17,40 +20,17 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
   const params = Object.entries({ query, location, category, page, limit })
     .filter(([_, value]) => value !== undefined)
     .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
-
   const queryParams = new URLSearchParams(params).toString();
+
   const url = `${SERVER_HOST}/jobs/get-jobs?${queryParams}`;
 
-  let jobList = [] as [];
-  let totalCount = 0;
-  let countriesOptions = [] as any;
-  let categoriesOptions = [] as any;
-
-  const fetchData = async (url: string) => {
-    "use server";
-    const response = await fetch(url);
-    const data = await response.json();
-    return data;
+  const { jobList, totalCount } = (await getJobListFn(url)) as {
+    jobList: any[];
+    totalCount: number;
   };
 
-  try {
-    // fetching Job list
-
-    const data = await fetchData(url);
-
-    jobList = data?.results?.jobList;
-    totalCount = data?.results?.pagination?.totalResults;
-
-    const countries = await fetch(`${SERVER_HOST}/location-list`);
-    const response = (await countries.json()) as any;
-    countriesOptions = response.results.locationOption;
-
-    const categoryResponse = await fetch(`${SERVER_HOST}/categoris-list`);
-    const categoriesResponse = (await categoryResponse.json()) as any;
-    categoriesOptions = categoriesResponse.results.categoriesListOption;
-  } catch (error) {
-    console.error("Failed to fetch job list:", error);
-  }
+  const countriesOptions = (await getLocationList()) as any;
+  const categoriesOptions = (await getCategoriesFn()) as any;
 
   return (
     <>
@@ -60,7 +40,6 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
             <FilterComponents
               countriesOptions={countriesOptions}
               categoriesOptions={categoriesOptions}
-              fetchData={fetchData}
             />
           </div>
           <div className=" col-span-12 flex flex-col h-full lg:col-span-9 overflow-y-auto lg:pr-16 space-y-2  gap-2 ">
