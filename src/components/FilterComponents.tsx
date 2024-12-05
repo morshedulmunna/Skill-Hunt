@@ -40,8 +40,9 @@ export default function FilterComponents({
       location: selectedCountry.value,
       query: search,
     });
-
-    router.push(`/job-search?${searchParams}`);
+    if (searchParams) {
+      router.push(`/job-search?${searchParams}`);
+    }
   }, [search, selectedCategory, selectedCountry]);
 
   return (

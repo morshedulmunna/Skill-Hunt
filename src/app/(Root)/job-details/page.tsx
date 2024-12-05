@@ -4,6 +4,7 @@ import ApplyButton from "@/components/ApplyButton";
 import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
 import { API_URL } from "@/constant";
+import Image from "next/image";
 import React from "react";
 
 type Props = {
@@ -36,7 +37,14 @@ export default async function jobDetailsPage({ searchParams }: Props) {
       <MaxWidthWrapper className="w-full">
         <div className="flex mb-12  flex-col sm:flex-row justify-between sm:items-start w-full">
           <div className="flex flex-wrap gap-2 items-start justify-start">
-            <div className="w-20 h-20 rounded bg-gray-200"></div>
+            <div className="min-w-20 min-h-20 flex justify-center items-center max-w-20 max-h-20 rounded bg-gray-100">
+              <Image
+                src={company.logo}
+                alt="company_logo"
+                width={500}
+                height={500}
+              />
+            </div>
             <div>
               <h4 className="font-semibold text-xl mb-1">{title}</h4>
               <div className="text-sm flex flex-wrap items-center gap-2">

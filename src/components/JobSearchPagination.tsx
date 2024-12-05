@@ -11,9 +11,12 @@ type Props = {
 
 export default function JobSearchPagination({ totalCount }: Props) {
   const router = useRouter();
-  const [page, setPage] = useState(1);
+  const searchParamsUrl = useSearchParams();
+  const [page, setPage] = useState<any>(1);
+  const params = Object.fromEntries(searchParamsUrl.entries());
 
   const searchParams = generateSearchQueryUrl({
+    ...params,
     page: page,
   });
 
@@ -26,7 +29,7 @@ export default function JobSearchPagination({ totalCount }: Props) {
       <Pagination
         numberOfData={totalCount}
         limits={5}
-        activePage={page || 1}
+        activePage={page}
         getCurrentPage={(page: any) => {
           setPage(page);
         }}

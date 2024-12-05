@@ -120,5 +120,241 @@
             ],
             "jobDescription": "As a Backend Developer at Amazon, you'll work on challenging projects that touch millions of users globally. You'll build scalable systems and collaborate across teams."
         }
+    },
+    {
+        "id": "4bda9943-3121-4fb0-8a58-df183b98e231",
+        "title": "Backend Engineer",
+        "company": {
+            "name": "Google",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
+            "website": "https://www.google.com",
+            "industry": "Technology",
+            "headquarters": "Mountain View, California, USA",
+            "founded": "September 4, 1998",
+            "employees": "180,000+",
+            "mission": "To organize the world’s information and make it universally accessible and useful.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/google",
+                "twitter": "https://twitter.com/Google",
+                "facebook": "https://www.facebook.com/Google",
+                "instagram": "https://www.instagram.com/google"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "World's Most Valuable Brand - Forbes (2023)",
+                "Top 100 Companies to Work For - Glassdoor (2023)"
+            ]
+        },
+        "degree": "BEng in Software Engineering",
+        "description": "Contribute to building innovative backend systems in a cutting-edge environment.",
+        "type": [
+            "Full-Time",
+            "Senior",
+            "Hybrid"
+        ],
+        "salary": "$12k/month",
+        "preferred_type": "hybrid",
+        "timePosted": "2 hours ago",
+        "bookmarked": false,
+        "applicants": "500+ applicants",
+        "details": {
+            "location": "India",
+            "positionType": "Hybrid",
+            "experience": "Senior",
+            "postedDate": "15 Dec, 2024",
+            "baseSalary": "$12k/month",
+            "responsibilities": [
+                "Design and develop scalable and reliable backend systems.",
+                "Integrate APIs to enable smooth communication between various services.",
+                "Work closely with product teams to bring new ideas to life.",
+                "Monitor application performance and troubleshoot complex issues.",
+                "Ensure data privacy and compliance with industry standards."
+            ],
+            "qualifications": [
+                "5+ years of experience in backend engineering.",
+                "Proficiency in Go, Kotlin, or Ruby.",
+                "Strong knowledge of cloud infrastructures like GCP or Azure.",
+                "Experience working with containerized applications.",
+                "Excellent debugging skills and an aptitude for learning new technologies."
+            ],
+            "jobDescription": "As a Backend Engineer at Google, you’ll have the opportunity to shape the future of global tech by developing systems that power Google’s products used by billions of people worldwide."
+        }
+    },
+    {
+        "id": "7a1b3421-5f54-4db6-bcb5-b2bbf7f74c3b",
+        "title": "Backend Developer",
+        "company": {
+            "name": "Microsoft",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+            "website": "https://www.microsoft.com",
+            "industry": "Technology",
+            "headquarters": "Redmond, Washington, USA",
+            "founded": "April 4, 1975",
+            "employees": "221,000+",
+            "mission": "Empower every person and every organization on the planet to achieve more.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/microsoft",
+                "twitter": "https://twitter.com/Microsoft",
+                "facebook": "https://www.facebook.com/Microsoft",
+                "instagram": "https://www.instagram.com/microsoft"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Best Employer - Forbes (2024)",
+                "Top 100 Places to Work - Glassdoor (2023)"
+            ]
+        },
+        "degree": "BSc in Information Technology",
+        "description": "Develop high-performance backend systems for enterprise-level applications.",
+        "type": [
+            "Full-Time",
+            "Mid-Level",
+            "On-Site"
+        ],
+        "salary": "$11k/month",
+        "preferred_type": "on-site",
+        "timePosted": "3 hours ago",
+        "bookmarked": true,
+        "applicants": "150+ applicants",
+        "details": {
+            "location": "USA",
+            "positionType": "On-Site",
+            "experience": "Mid-Level",
+            "postedDate": "20 Dec, 2024",
+            "baseSalary": "$11k/month",
+            "responsibilities": [
+                "Design and implement efficient backend services for large-scale applications.",
+                "Collaborate with frontend developers to build seamless user experiences.",
+                "Optimize backend processes for speed, scalability, and reliability.",
+                "Monitor system health and troubleshoot performance bottlenecks.",
+                "Ensure code quality through best practices and unit testing."
+            ],
+            "qualifications": [
+                "3+ years of experience in backend development.",
+                "Proficiency in C#, .NET, or JavaScript (Node.js).",
+                "Experience with cloud services, preferably Azure.",
+                "Familiarity with serverless architectures and microservices.",
+                "Strong communication skills and the ability to work in cross-functional teams."
+            ],
+            "jobDescription": "As a Backend Developer at Microsoft, you'll be responsible for creating backend systems that power Microsoft’s cloud services and products, impacting millions of users worldwide."
+        }
+    },
+    {
+        "id": "fa51d348-bc72-4b0a-85a7-7888b08d8041",
+        "title": "Backend Engineer",
+        "company": {
+            "name": "Meta",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+            "website": "https://www.meta.com",
+            "industry": "Social Media",
+            "headquarters": "Menlo Park, California, USA",
+            "founded": "February 4, 2004",
+            "employees": "70,000+",
+            "mission": "Give people the power to build community and bring the world closer together.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/meta",
+                "twitter": "https://twitter.com/meta",
+                "facebook": "https://www.facebook.com/meta",
+                "instagram": "https://www.instagram.com/meta"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Best Workplaces for Innovation - Forbes (2024)",
+                "Top Companies to Work for - Glassdoor (2023)"
+            ]
+        },
+        "degree": "MSc in Computer Science",
+        "description": "Build backend infrastructure to support Meta’s global social media platforms.",
+        "type": [
+            "Full-Time",
+            "Senior",
+            "Hybrid"
+        ],
+        "salary": "$13k/month",
+        "preferred_type": "hybrid",
+        "timePosted": "30 minutes ago",
+        "bookmarked": false,
+        "applicants": "1,000+ applicants",
+        "details": {
+            "location": "USA",
+            "positionType": "Hybrid",
+            "experience": "Senior",
+            "postedDate": "1 Jan, 2025",
+            "baseSalary": "$13k/month",
+            "responsibilities": [
+                "Design and develop backend systems for large-scale applications.",
+                "Ensure low latency and high availability of all services.",
+                "Work with data engineering teams to create data pipelines.",
+                "Participate in code reviews and maintain high code quality standards.",
+                "Ensure compliance with privacy and security standards."
+            ],
+            "qualifications": [
+                "5+ years of experience in backend engineering.",
+                "Expert in Python, Go, or Java.",
+                "Experience with Facebook’s tech stack and services.",
+                "Strong knowledge of distributed systems and databases.",
+                "Ability to handle high-scale data processing."
+            ],
+            "jobDescription": "As a Backend Engineer at Meta, you will be part of a team responsible for developing cutting-edge backend services for Facebook, Instagram, WhatsApp, and other global platforms, serving billions of users."
+        }
+    },
+    {
+        "id": "3e4f2a87-75f5-47a3-a0d1-4fba6f9b6a89",
+        "title": "Backend Developer",
+        "company": {
+            "name": "Apple",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_2.svg",
+            "website": "https://www.apple.com",
+            "industry": "Technology",
+            "headquarters": "Cupertino, California, USA",
+            "founded": "April 1, 1976",
+            "employees": "164,000+",
+            "mission": "To create the best products on earth, and to leave the world better than we found it.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/apple",
+                "twitter": "https://twitter.com/Apple",
+                "facebook": "https://www.facebook.com/apple",
+                "instagram": "https://www.instagram.com/apple"
+            },
+            "officeLocations": "Global",
+            "awards": [
+                "Top 50 Best Employers - Forbes (2024)",
+                "World’s Most Innovative Companies - Fast Company (2023)"
+            ]
+        },
+        "degree": "BSc in Software Engineering",
+        "description": "Develop next-generation backend solutions for Apple's ecosystem.",
+        "type": [
+            "Full-Time",
+            "Mid-Level",
+            "Remote"
+        ],
+        "salary": "$14k/month",
+        "preferred_type": "remote",
+        "timePosted": "5 hours ago",
+        "bookmarked": true,
+        "applicants": "200+ applicants",
+        "details": {
+            "location": "Canada",
+            "positionType": "Remote",
+            "experience": "Mid-Level",
+            "postedDate": "2 Dec, 2024",
+            "baseSalary": "$14k/month",
+            "responsibilities": [
+                "Build backend services for Apple's iCloud platform.",
+                "Develop and maintain APIs to support Apple's consumer-facing applications.",
+                "Work closely with the mobile team to ensure seamless app-backend integration.",
+                "Optimize backend performance for millions of concurrent users.",
+                "Implement data encryption and privacy protections in backend systems."
+            ],
+            "qualifications": [
+                "4+ years of experience in backend development.",
+                "Proficiency in Swift, Objective-C, or Python.",
+                "Experience with cloud platforms like AWS or Azure.",
+                "Familiarity with Apple’s ecosystem and frameworks.",
+                "Strong problem-solving skills and attention to detail."
+            ],
+            "jobDescription": "As a Backend Developer at Apple, you will play a key role in designing scalable and secure backend systems for iCloud, Apple Music, and other major Apple services, impacting millions of users worldwide."
+        }
     }
 ]
