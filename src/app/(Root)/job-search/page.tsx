@@ -44,7 +44,7 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
           </div>
           <div className=" col-span-12 flex flex-col h-full lg:col-span-9 overflow-y-auto lg:pr-16 space-y-2  gap-2 ">
             <div className="flex-1 space-y-4">
-              <h2 className="text-primary-base font-semibold">
+              <h2 className="text-primary-base dark:text-primary-lighter font-semibold">
                 Total List of Jobs: {totalCount}
               </h2>
               {jobList.length === 0 && (

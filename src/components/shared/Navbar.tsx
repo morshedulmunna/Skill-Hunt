@@ -41,8 +41,9 @@ export default function Navbar(): JSX.Element {
               key={each.href}
               href={each.href}
               className={` ${
-                path === each.href && "text-primary-base font-semibold"
-              } whitespace-nowrap hidden lg:block font-medium dark:hover:text-primary-lighter hover:text-primary-dark  transition-all ease-linear py-1 mx-2 w-full`}
+                path === each.href &&
+                "text-primary-base dark:text-primary-lightest font-semibold"
+              } whitespace-nowrap hidden dark:text-gray-400 lg:block font-medium dark:hover:text-primary-lighter hover:text-primary-dark  transition-all ease-linear py-1 mx-2 w-full`}
             >
               {each.label}
             </Link>
