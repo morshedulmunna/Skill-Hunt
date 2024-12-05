@@ -1,5 +1,6 @@
 "use client";
 
+import { useOnClickOutside } from "@/hooks/useOnClickOutside";
 import { clearLocalStorage, deleteAllCookies } from "@/utils";
 import {
   ArrowLeftFromLine,
@@ -11,7 +12,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 type Props = {
   className?: string;
@@ -20,7 +21,10 @@ type Props = {
 export default function ToggleMobileMenu({ className }: Props) {
   const [isOpen, setIsOpen] = useState(false);
   const path = usePathname();
-
+  const ref = useRef(null);
+  useOnClickOutside(ref, () => {
+    setIsOpen(false);
+  });
   const handleToggle = () => {
     setIsOpen((prev) => !prev);
   };
@@ -36,6 +40,7 @@ export default function ToggleMobileMenu({ className }: Props) {
 
       {/* Mobile Menu */}
       <div
+        ref={ref}
         className={`absolute top-16 flex justify-between flex-col right-0 w-full md:w-1/3 p-2 h-[50vh] md:h-[50vh] bg-white dark:bg-background dark:border-gray-800 shadow border  transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
