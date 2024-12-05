@@ -4,6 +4,8 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import Logo from "./Logo";
 import ThemeToggler from "../ThemeToggler";
 import PostJobButton from "../PostJobButton";
+import SignInSignoutProfile from "../SignInSignoutProfile";
+import DashboardButton from "../DashboardButton";
 
 interface NavItem {
   label: string;
@@ -37,14 +39,12 @@ export default function Navbar(): JSX.Element {
               {each.label}
             </Link>
           ))}
+
+          <DashboardButton />
+
           <div className="hidden lg:block">
             <div className="flex gap-6 items-center justify-end">
-              <Link
-                href={"/signin"}
-                className="px-4 py-2 rounded border border-gray-300 dark:border-gray-700 whitespace-nowrap  text-primary-base dark:text-gray-100 focus:outline-none "
-              >
-                Sign in
-              </Link>
+              <SignInSignoutProfile />
               <PostJobButton />
               <ThemeToggler />
             </div>
