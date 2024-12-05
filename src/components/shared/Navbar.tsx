@@ -3,6 +3,7 @@ import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import Logo from "./Logo";
 import ThemeToggler from "../ThemeToggler";
+import PostJobButton from "../PostJobButton";
 
 interface NavItem {
   label: string;
@@ -44,12 +45,7 @@ export default function Navbar(): JSX.Element {
               >
                 Sign in
               </Link>
-              <button
-                type="button"
-                className="px-4 py-2 rounded bg-primary-base whitespace-nowrap  text-white  focus:outline-none "
-              >
-                Post a Jobs
-              </button>
+              <PostJobButton />
               <ThemeToggler />
             </div>
           </div>

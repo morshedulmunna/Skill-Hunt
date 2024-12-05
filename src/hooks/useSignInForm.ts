@@ -82,7 +82,8 @@ export default function useSignInForm() {
             })
           );
         }
-        router.push("/");
+        // router.push("/");
+        window.location.href = "/";
       } else {
         toast.error(response.message || "Sign-in failed. Please try again.");
       }
