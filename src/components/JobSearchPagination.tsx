@@ -2,7 +2,7 @@
 
 import React from "react";
 import Pagination from "./shared/Pagination";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 type Props = {
   totalCount: number;
@@ -12,6 +12,7 @@ export default function JobSearchPagination({ totalCount }: Props) {
   const searchParams = useSearchParams();
 
   const page = Number(searchParams.get("page"));
+  const router = useRouter();
   return (
     <div>
       <Pagination
@@ -19,9 +20,9 @@ export default function JobSearchPagination({ totalCount }: Props) {
         limits={5}
         activePage={page || 1}
         getCurrentPage={(page: any) => {
-          const url = new URL(window.location.href);
+          const url = new URL(window.location.href) as any;
           url.searchParams.set("page", page.toString());
-          window.location.href = url.toString();
+          router.push(url);
         }}
         className="float-right"
       />
