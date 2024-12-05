@@ -1,6 +1,7 @@
 "use client";
 
 import { useOnClickOutside } from "@/hooks/useOnClickOutside";
+import useUserInfo from "@/hooks/useUserInfo";
 import { clearLocalStorage, deleteAllCookies } from "@/utils";
 import {
   ArrowLeftFromLine,
@@ -20,6 +21,7 @@ type Props = {
 
 export default function ToggleMobileMenu({ className }: Props) {
   const [isOpen, setIsOpen] = useState(false);
+  const { userInfo } = useUserInfo();
   const path = usePathname();
   const ref = useRef(null);
   useOnClickOutside(ref, () => {
@@ -89,17 +91,28 @@ export default function ToggleMobileMenu({ className }: Props) {
           </div>
         </div>
         <div className="flex w-full justify-center items-center">
-          <div
-            onClick={() => {
-              clearLocalStorage();
-              deleteAllCookies();
-              window.location.href = "/signin";
-            }}
-            className=" flex justify-center gap-2 px-6  rounded-md border dark:border-gray-800 w-fit items-center text-red-500  font-semibold py-2"
-          >
-            <LogOut className="animate-pulse" />
-            <p> Sign out</p>
-          </div>
+          {userInfo.id ? (
+            <div
+              onClick={() => {
+                clearLocalStorage();
+                deleteAllCookies();
+                window.location.href = "/signin";
+              }}
+              className=" flex justify-center gap-2 px-6  rounded-md border dark:border-gray-800 w-fit items-center text-red-500  font-semibold py-2"
+            >
+              <LogOut className="animate-pulse" />
+              <p> Sign out</p>
+            </div>
+          ) : (
+            <div>
+              <Link
+                href={"/signin"}
+                className=" flex justify-center gap-2 px-6  rounded-md border dark:border-gray-800 w-fit items-center text-primary-base  font-semibold py-2"
+              >
+                Sign in
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>
