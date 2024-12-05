@@ -41,7 +41,6 @@ export default function SignInPage({}: Props) {
     } else {
       setErrors({});
       // Submit form or make API call
-      console.log("Form submitted with:", { email, password });
     }
   };
 

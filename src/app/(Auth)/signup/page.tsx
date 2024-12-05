@@ -101,7 +101,6 @@ export default function SignupPage({}: Props) {
         });
 
         const response = await res.json();
-        console.log(response);
 
         if (response.statusCode === 201) {
           toast.success(response.message);
@@ -109,7 +108,6 @@ export default function SignupPage({}: Props) {
         }
         setLoading(false);
       } catch (error: any) {
-        console.log("Error signing up:", error);
         setLoading(false);
         toast.error(error.message);
       }

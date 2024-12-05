@@ -16,7 +16,6 @@ export async function GET(request: Request) {
       page: Number(queryParams.get("page")) || 1,
       limit: Number(queryParams.get("limit")) || 5,
     };
-    console.log(filters);
 
     const filePath = path.join(
       process.cwd(),
