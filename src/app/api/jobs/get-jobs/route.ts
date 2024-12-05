@@ -92,8 +92,6 @@ export async function GET(request: Request) {
       filters.page * filters.limit
     );
 
-    // Prepare the response
-
     const responses = ApiResponse.success({
       message: "All jobs retrieved successfully",
       results: {

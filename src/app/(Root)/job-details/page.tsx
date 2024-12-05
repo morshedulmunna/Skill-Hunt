@@ -1,9 +1,7 @@
 import { jobDetailsFn } from "@/actions/getJobDetails";
-import ArrowSvgIcon from "@/assets/svg/ArrowSvgIcon";
 import ApplyButton from "@/components/ApplyButton";
 import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
-import { API_URL } from "@/constant";
 import Image from "next/image";
 import React from "react";
 
@@ -15,21 +13,14 @@ export default async function jobDetailsPage({ searchParams }: Props) {
   const { id } = await searchParams;
   const jobDetails = await jobDetailsFn(id);
 
-  const {
-    company,
-    details,
-    preferred_type,
-    salary,
-    title,
-    description,
-    applicants,
-  } = jobDetails.results;
+  const { company, details, preferred_type, salary, title } =
+    jobDetails.results;
+
   return (
     <>
       <div className="py-6 my-4  p-4 rounded bg-gray-100 dark:bg-gray-800/80 shadow-sm">
         <MaxWidthWrapper>
           <h2 className="text-xl font-semibold">
-            {" "}
             <span className="text-sm text-gray-500">At</span> {company.name}
           </h2>
         </MaxWidthWrapper>

@@ -12,8 +12,6 @@ export async function GET(request: Request) {
 
     const job = jobListResponse.results as [];
 
-    // console.log(job);
-
     const location = new Set((job as any).map((i: any) => i.details.location));
     const locations = Array.from(location);
 

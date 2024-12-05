@@ -1,10 +1,9 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import SelectionOptionDropdown from "./shared/SelectionOptionDropdown";
 import SearchInput from "./shared/SearchInput";
-import { useRouter } from "next/navigation";
-import { generateSearchQueryUrl } from "@/utils";
+import { useSearch } from "@/hooks/useSearch";
 
 type Props = {
   categoriesOptions: [];
@@ -15,30 +14,8 @@ export default function SearchingSection({
   categoriesOptions,
   countries,
 }: Props) {
-  const router = useRouter();
-
-  // state for category, location, and query
-  const [searchParams, setSearchParams] = useState({
-    category: "",
-    location: "",
-    query: "",
-  });
-
-  // Function to handle category and location selection
-  const handleSelect = (type: string, value: string | number) => {
-    setSearchParams((prevState) => ({ ...prevState, [type]: value }));
-  };
-
-  // Function to handle search query input
-  const handleSearch = (query: string) => {
-    setSearchParams((prevState) => ({ ...prevState, query }));
-  };
-
-  // Function to navigate with the search URL
-  const handleSearchSubmit = () => {
-    const searchUrl = generateSearchQueryUrl(searchParams);
-    router.push(`/job-search?${searchUrl}`);
-  };
+  const { searchParams, handleSelect, handleSearch, handleSearchSubmit } =
+    useSearch(categoriesOptions, countries);
 
   return (
     <div className="flex items-center flex-col md:flex-row w-full gap-4">
