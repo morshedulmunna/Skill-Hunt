@@ -16,7 +16,8 @@ export default function DashboardButton({}: Props) {
       {userInfo.id && userInfo.accountType === accountType.RECRUITER ? (
         <Link
           className={` ${
-            path === "/dashboard" && "text-primary-base font-semibold"
+            path === "/dashboard" &&
+            "text-primary-base dark:text-primary-lightest font-semibold"
           } whitespace-nowrap hidden lg:block font-medium dark:hover:text-primary-lighter hover:text-primary-dark  transition-all ease-linear py-1 mx-2 w-full`}
           href={"/dashboard"}
         >
