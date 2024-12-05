@@ -30,7 +30,7 @@ export default function ToggleMobileMenu({ className }: Props) {
   };
 
   return (
-    <div className={` w-full ${className}`}>
+    <div ref={ref} className={` w-full ${className}`}>
       {/* Menu Icon */}
       <Menu
         className="cursor-pointer text-gray-800 dark:text-white"
@@ -40,7 +40,6 @@ export default function ToggleMobileMenu({ className }: Props) {
 
       {/* Mobile Menu */}
       <div
-        ref={ref}
         className={`absolute top-16 flex justify-between flex-col right-0 w-full md:w-1/3 p-2 h-[50vh] md:h-[50vh] bg-white dark:bg-background dark:border-gray-800 shadow-sm  transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
