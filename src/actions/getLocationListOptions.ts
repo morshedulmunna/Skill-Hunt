@@ -4,8 +4,8 @@ let countriesOptions = [] as [];
 export const getLocationList = async () => {
   try {
     const countries = await fetch(`${API_URL}/api/location-list`, {
-      cache: "no-store",
-      next: { revalidate: 10 },
+      cache: "no-cache",
+      next: { revalidate: 60 },
     });
     const response = (await countries.json()) as any;
     countriesOptions = response.results.locationOption;

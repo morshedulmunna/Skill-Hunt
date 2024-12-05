@@ -5,8 +5,8 @@ let categoriesOptions = [] as any;
 export async function getCategoriesFn() {
   try {
     const res = await fetch(`${API_URL}/api/categoris-list`, {
-      cache: "no-store",
-      next: { revalidate: 10 },
+      cache: "no-cache",
+      next: { revalidate: 60 },
     });
     const categoriesResponse = (await res.json()) as any;
     categoriesOptions = categoriesResponse.results.categoriesListOption;
