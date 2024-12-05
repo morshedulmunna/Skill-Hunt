@@ -4,7 +4,7 @@
         "title": "Frontend Developer",
         "company": {
             "name": "Google",
-            "logo": "/logos/google.png",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png",
             "website": "https://www.google.com",
             "industry": "Technology",
             "headquarters": "Mountain View, California, USA",
@@ -60,6 +60,65 @@
                 "Problem-solving skills and a proactive attitude."
             ],
             "jobDescription": "We are looking for a talented and passionate Backend Developer to join our growing team. As a Backend Developer, you will be responsible for designing, building, and maintaining robust server-side applications, APIs, and databases that power our products. Your work will be fundamental to ensuring that our systems are not only functional but also scalable, reliable, and secure. By focusing on high-performance backend systems, you'll be helping deliver a seamless experience for our users. In this role, you will have the opportunity to work with cutting-edge technologies and contribute to the evolution of our software infrastructure. Collaboration will be key, as you will work closely with frontend developers, product managers, and other stakeholders to ensure smooth integration between front-end and back-end systems. You will be expected to write clean, efficient, and well-documented code while also keeping performance optimization and security top of mind. Additionally, you will play an integral role in managing and maintaining the database layer, ensuring data integrity and implementing best practices for data security. Problem-solving will be at the heart of your work, as you'll troubleshoot production issues, optimize system performance, and find innovative solutions to complex challenges. We’re looking for someone who thrives in a fast-paced environment, is eager to learn new technologies, and is committed to building scalable systems. If you are passionate about backend development and want to make an impact on a growing product, we’d love to have you on our team."
+        }
+    },
+    {
+        "id": "5cde8734-7124-4b7d-8f97-3a4d2e3f7c11",
+        "title": "Backend Developer",
+        "company": {
+            "name": "Amazon",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+            "website": "https://www.amazon.com",
+            "industry": "E-commerce",
+            "headquarters": "Seattle, Washington, USA",
+            "founded": "July 5, 1994",
+            "employees": "1,541,000+",
+            "mission": "To be Earth's most customer-centric company.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/amazon",
+                "twitter": "https://twitter.com/Amazon",
+                "facebook": "https://www.facebook.com/Amazon",
+                "instagram": "https://www.instagram.com/amazon"
+            },
+            "officeLocations": "Worldwide",
+            "awards": [
+                "Best Places to Work - Glassdoor (2024)",
+                "Top Companies - LinkedIn (2023)"
+            ]
+        },
+        "degree": "BSc in Computer Science",
+        "description": "Work on cutting-edge e-commerce backend systems.",
+        "type": [
+            "Full-Time",
+            "Experienced",
+            "Remote"
+        ],
+        "salary": "$10k/month",
+        "preferred_type": "remote",
+        "timePosted": "1 hour ago",
+        "bookmarked": true,
+        "applicants": "300+ applicants",
+        "details": {
+            "location": "Canada",
+            "positionType": "Remote",
+            "experience": "Experienced",
+            "postedDate": "11 Jan, 2024",
+            "baseSalary": "$10k/month",
+            "responsibilities": [
+                "Build and maintain highly scalable backend systems.",
+                "Implement APIs for seamless front-end and back-end integration.",
+                "Collaborate with cross-functional teams for new features.",
+                "Monitor system performance and optimize for scalability.",
+                "Secure sensitive data through best practices in encryption and security."
+            ],
+            "qualifications": [
+                "5+ years of experience in backend development.",
+                "Strong proficiency in Java, Python, or Node.js.",
+                "Expertise in distributed systems and cloud platforms like AWS.",
+                "Familiarity with microservices architecture.",
+                "Exceptional problem-solving skills and teamwork capabilities."
+            ],
+            "jobDescription": "As a Backend Developer at Amazon, you'll work on challenging projects that touch millions of users globally. You'll build scalable systems and collaborate across teams."
         }
     }
 ]
