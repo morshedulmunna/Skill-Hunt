@@ -115,23 +115,23 @@ export default async function jobDetailsPage({ searchParams }: Props) {
                     <path
                       d="M14.25 27.3125L4.75 29.6875V8.3125L14.25 5.9375"
                       stroke="#0A65CC"
-                      stroke-width="2.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M23.75 32.0625L14.25 27.3125V5.9375L23.75 10.6875V32.0625Z"
                       stroke="#0A65CC"
-                      stroke-width="2.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M23.75 10.6875L33.25 8.3125V29.6875L23.75 32.0625"
                       stroke="#0A65CC"
-                      stroke-width="2.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                   <p className="text-xl">Job Location</p>
@@ -160,22 +160,22 @@ export default async function jobDetailsPage({ searchParams }: Props) {
                       <path
                         d="M12.6665 27C18.7416 27 23.6665 22.0751 23.6665 16C23.6665 9.92487 18.7416 5 12.6665 5C6.59137 5 1.6665 9.92487 1.6665 16C1.6665 22.0751 6.59137 27 12.6665 27Z"
                         stroke="#0A65CC"
-                        stroke-width="2"
-                        stroke-miterlimit="10"
+                        strokeWidth="2"
+                        strokeMiterlimit="10"
                       />
                       <path
                         d="M12.6665 16L17.6163 11.0502"
                         stroke="#0A65CC"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M9.6665 1H15.6665"
                         stroke="#0A65CC"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <p className="font-semibold">Founded</p>
