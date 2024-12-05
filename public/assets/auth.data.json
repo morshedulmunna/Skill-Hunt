@@ -5,5 +5,19 @@
     "name": "munna",
     "accountType": "employee",
     "id": "e38bee8a-d080-4371-8973-49131332be42"
+  },
+  {
+    "email": "munna1@gmail.com",
+    "password": "123456",
+    "name": "Munna",
+    "accountType": "employee",
+    "id": "2e485c50-1c3a-4948-975f-2b705d3473f3"
+  },
+  {
+    "email": "mariya@gmail.com",
+    "password": "123456",
+    "name": "Mariya",
+    "accountType": "recruiter",
+    "id": "641b9267-c801-405a-974f-eeaf58692ebd"
   }
 ]
