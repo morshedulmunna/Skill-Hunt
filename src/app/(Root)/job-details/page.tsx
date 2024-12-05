@@ -1,3 +1,4 @@
+import { jobDetailsFn } from "@/actions/getJobDetails";
 import ArrowSvgIcon from "@/assets/svg/ArrowSvgIcon";
 import ApplyButton from "@/components/ApplyButton";
 import BoxWrapper from "@/components/shared/BoxWrapper";
@@ -11,16 +12,8 @@ type Props = {
 
 export default async function jobDetailsPage({ searchParams }: Props) {
   const { id } = await searchParams;
-  const response = await fetch(`${API_URL}/api/jobs/job-details?id=${id}`);
+  const jobDetails = await jobDetailsFn(id);
 
-  if (!response.ok) {
-    const errorData = await response.json();
-    console.error("Error:", errorData.message);
-    return;
-  }
-
-  const jobDetails = await response.json();
-  console.log("Job details:", jobDetails);
   const {
     company,
     details,
