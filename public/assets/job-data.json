@@ -4,7 +4,24 @@
         "title": "Frontend Developer",
         "company": {
             "name": "Google",
-            "logo": "/logos/google.png"
+            "logo": "/logos/google.png",
+            "website": "https://www.google.com",
+            "industry": "Technology",
+            "headquarters": "Mountain View, California, USA",
+            "founded": "September 4, 1998",
+            "employees": "156,500+",
+            "mission": "To organize the world’s information and make it universally accessible and useful.",
+            "socialLinks": {
+                "linkedin": "https://www.linkedin.com/company/google",
+                "twitter": "https://twitter.com/Google",
+                "facebook": "https://www.facebook.com/Google",
+                "instagram": "https://www.instagram.com/google"
+            },
+            "officeLocations": "Mountain View, California, USA",
+            "awards": [
+                "Best Places to Work - Glassdoor (2024)",
+                "Most Innovative Companies - Fast Company (2023)"
+            ]
         },
         "degree": "MSc in Software Engineering",
         "description": "Exciting opportunities for experienced developers.",
@@ -24,315 +41,25 @@
             "experience": "Intermediate",
             "postedDate": "10 Jan, 2024",
             "baseSalary": "৳12k/month",
-            "jobDescription": "Develop and maintain user interfaces using React and TypeScript. Collaborate with cross-functional teams to ensure seamless UI/UX design."
-        }
-    },
-    {
-        "id": "3d4e7d90-2943-4c76-a6d6-68abacb2e34a",
-        "title": "Backend Developer",
-        "company": {
-            "name": "Amazon",
-            "logo": "/logos/amazon.png"
-        },
-        "degree": "BSc in Software Engineering",
-        "description": "Join our innovative backend team.",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Onsite"
-        ],
-        "salary": "7k/month",
-        "preferred_type": "onsite",
-        "timePosted": "1 hour ago",
-        "bookmarked": true,
-        "applicants": "800+ applicants",
-        "details": {
-            "location": "Seattle, US",
-            "positionType": "Onsite",
-            "experience": "Expert",
-            "postedDate": "9 Jan, 2024",
-            "baseSalary": "৳15k/month",
-            "jobDescription": "Work on scalable backend services using Node.js and PostgreSQL. Ensure efficient database design and API integrations."
-        }
-    },
-    {
-        "id": "d8ae99a3-5374-4019-9940-b2c3d3193444",
-        "title": "Mobile App Developer",
-        "company": {
-            "name": "Meta",
-            "logo": "/logos/meta.png"
-        },
-        "degree": "Diploma in Software Development",
-        "description": "Creative problem solvers welcome.",
-        "type": [
-            "Contract",
-            "Senior",
-            "Remote"
-        ],
-        "salary": "10k/month",
-        "preferred_type": "part-time",
-        "timePosted": "30 mins ago",
-        "bookmarked": false,
-        "applicants": "400+ applicants",
-        "details": {
-            "location": "Austin, US",
-            "positionType": "Remote",
-            "experience": "Senior",
-            "postedDate": "8 Jan, 2024",
-            "baseSalary": "৳20k/month",
-            "jobDescription": "Design and implement cutting-edge mobile applications for Android and iOS platforms using React Native and Flutter."
-        }
-    },
-    {
-        "id": "ed1346d2-b15b-4de1-95c8-6a9c61273617",
-        "title": "Data Scientist",
-        "company": {
-            "name": "Microsoft",
-            "logo": "/logos/microsoft.png"
-        },
-        "degree": "PhD in Data Science",
-        "description": "Unleash the power of data.",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Remote"
-        ],
-        "salary": "15k/month",
-        "preferred_type": "remote",
-        "timePosted": "1 day ago",
-        "bookmarked": true,
-        "applicants": "700+ applicants",
-        "details": {
-            "location": "Redmond, US",
-            "positionType": "Remote",
-            "experience": "Expert",
-            "postedDate": "7 Jan, 2024",
-            "baseSalary": "৳25k/month",
-            "jobDescription": "Analyze and interpret complex datasets using Python, R, and SQL. Develop machine learning models to solve business problems."
-        }
-    },
-    {
-        "id": "f1e5d1f2-d473-4d1e-8c1b-d0adf36e45b3",
-        "title": "Product Manager",
-        "company": {
-            "name": "Apple",
-            "logo": "/logos/apple.png"
-        },
-        "degree": "MBA in Business Administration",
-        "description": "Lead product teams to success.",
-        "type": [
-            "Full-Time",
-            "Senior",
-            "Hybrid"
-        ],
-        "salary": "12k/month",
-        "preferred_type": "hybrid",
-        "timePosted": "2 hours ago",
-        "bookmarked": true,
-        "applicants": "300+ applicants",
-        "details": {
-            "location": "Cupertino, US",
-            "positionType": "Hybrid",
-            "experience": "Senior",
-            "postedDate": "6 Jan, 2024",
-            "baseSalary": "৳22k/month",
-            "jobDescription": "Oversee the development and launch of new products. Collaborate with cross-functional teams to ensure alignment with customer needs and market demands."
-        }
-    },
-    {
-        "id": "bb16c7ae-9b8d-4337-83e5-3c4d6ccfa9f2",
-        "title": "Cloud Engineer",
-        "company": {
-            "name": "IBM",
-            "logo": "/logos/ibm.png"
-        },
-        "degree": "MSc in Cloud Computing",
-        "description": "Help build and scale cloud solutions.",
-        "type": [
-            "Full-Time",
-            "Intermediate",
-            "Remote"
-        ],
-        "salary": "11k/month",
-        "preferred_type": "remote",
-        "timePosted": "3 hours ago",
-        "bookmarked": false,
-        "applicants": "250+ applicants",
-        "details": {
-            "location": "bangladesh",
-            "positionType": "Remote",
-            "experience": "Intermediate",
-            "postedDate": "5 Jan, 2024",
-            "baseSalary": "৳18k/month",
-            "jobDescription": "Develop and manage cloud infrastructure using AWS, Azure, and Google Cloud. Ensure security, scalability, and performance of cloud-based applications."
-        }
-    },
-    {
-        "id": "5be6bff7-55ab-4b56-8b6d-e179f938b3c8",
-        "title": "Systems Administrator",
-        "company": {
-            "name": "Oracle",
-            "logo": "/logos/oracle.png"
-        },
-        "degree": "BSc in Network Engineering",
-        "description": "Maintain critical infrastructure systems.",
-        "type": [
-            "Part-Time",
-            "Junior",
-            "Onsite"
-        ],
-        "salary": "5k/month",
-        "preferred_type": "onsite",
-        "timePosted": "1 day ago",
-        "bookmarked": true,
-        "applicants": "150+ applicants",
-        "details": {
-            "location": "New York, US",
-            "positionType": "Onsite",
-            "experience": "Junior",
-            "postedDate": "4 Jan, 2024",
-            "baseSalary": "৳8k/month",
-            "jobDescription": "Support the organization’s IT infrastructure, including servers, networks, and workstations. Troubleshoot and resolve technical issues."
-        }
-    },
-    {
-        "id": "a7899d99-2fbf-497f-8ff3-0fae8d3d0544",
-        "title": "QA Engineer",
-        "company": {
-            "name": "Adobe",
-            "logo": "/logos/adobe.png"
-        },
-        "degree": "BEng in Software Testing",
-        "description": "Ensure product quality with advanced testing.",
-        "type": [
-            "Full-Time",
-            "Intermediate",
-            "Remote"
-        ],
-        "salary": "9k/month",
-        "preferred_type": "remote",
-        "timePosted": "2 days ago",
-        "bookmarked": true,
-        "applicants": "600+ applicants",
-        "details": {
-            "location": "San Jose, US",
-            "positionType": "Remote",
-            "experience": "Intermediate",
-            "postedDate": "3 Jan, 2024",
-            "baseSalary": "৳14k/month",
-            "jobDescription": "Design, develop, and execute test cases to ensure the quality and functionality of software products. Use tools like Selenium and JIRA."
-        }
-    },
-    {
-        "id": "9a62951b-d037-4fbb-8839-e6318fa3b22b",
-        "title": "Security Analyst",
-        "company": {
-            "name": "Cisco",
-            "logo": "/logos/cisco.png"
-        },
-        "degree": "BSc in Cybersecurity",
-        "description": "Protect our digital assets.",
-        "type": [
-            "Full-Time",
-            "Senior",
-            "Hybrid"
-        ],
-        "salary": "14k/month",
-        "preferred_type": "hybrid",
-        "timePosted": "5 hours ago",
-        "bookmarked": false,
-        "applicants": "1k+ applicants",
-        "details": {
-            "location": "San Jose, US",
-            "positionType": "Hybrid",
-            "experience": "Senior",
-            "postedDate": "2 Jan, 2024",
-            "baseSalary": "৳28k/month",
-            "jobDescription": "Monitor and analyze network security incidents. Provide guidance on best practices and mitigate risks related to cybersecurity."
-        }
-    },
-    {
-        "id": "5ed4579f-c9b7-42bb-a87d-f9c6db5c3b06",
-        "title": "Data Analyst",
-        "company": {
-            "name": "Spotify",
-            "logo": "/logos/spotify.png"
-        },
-        "degree": "BSc in Data Science",
-        "description": "Analyze trends and make data-driven decisions.",
-        "type": [
-            "Part-Time",
-            "Intermediate",
-            "Remote"
-        ],
-        "salary": "7k/month",
-        "preferred_type": "remote",
-        "timePosted": "4 hours ago",
-        "bookmarked": true,
-        "applicants": "300+ applicants",
-        "details": {
-            "location": "Los Angeles, US",
-            "positionType": "Remote",
-            "experience": "Intermediate",
-            "postedDate": "1 Jan, 2024",
-            "baseSalary": "৳12k/month",
-            "jobDescription": "Analyze user behavior, trends, and patterns to help drive product decisions. Use SQL, Python, and Excel for data manipulation."
-        }
-    },
-    {
-        "id": "c613ac11-5f16-4f83-8838-bf61f5bbad47",
-        "title": "Business Analyst",
-        "company": {
-            "name": "Salesforce",
-            "logo": "/logos/salesforce.png"
-        },
-        "degree": "BBA in Business Administration",
-        "description": "Transform business needs into solutions.",
-        "type": [
-            "Full-Time",
-            "Senior",
-            "Onsite"
-        ],
-        "salary": "10k/month",
-        "preferred_type": "onsite",
-        "timePosted": "2 days ago",
-        "bookmarked": false,
-        "applicants": "1k+ applicants",
-        "details": {
-            "location": "Chicago, US",
-            "positionType": "Onsite",
-            "experience": "Senior",
-            "postedDate": "31 Dec, 2023",
-            "baseSalary": "৳18k/month",
-            "jobDescription": "Work closely with business leaders to identify and solve complex business problems. Provide actionable insights based on data analysis."
-        }
-    },
-    {
-        "id": "57d15e72-14b9-45f8-b0ea-cde78ef07b83",
-        "title": "DevOps Engineer",
-        "company": {
-            "name": "Twitter",
-            "logo": "/logos/twitter.png"
-        },
-        "degree": "MSc in Cloud Engineering",
-        "description": "Automate and optimize infrastructure.",
-        "type": [
-            "Full-Time",
-            "Expert",
-            "Hybrid"
-        ],
-        "salary": "13k/month",
-        "preferred_type": "hybrid",
-        "timePosted": "6 hours ago",
-        "bookmarked": true,
-        "applicants": "1k+ applicants",
-        "details": {
-            "location": "Dallas, US",
-            "positionType": "Hybrid",
-            "experience": "Expert",
-            "postedDate": "30 Dec, 2023",
-            "baseSalary": "৳22k/month",
-            "jobDescription": "Develop and maintain automated workflows and pipelines to improve deployment efficiency and system reliability."
+            "responsibilities": [
+                "Design, implement, and maintain backend services, APIs, and database architectures.",
+                "Collaborate with frontend developers to integrate user-facing elements with server-side logic.",
+                "Write clean, efficient, and well-documented code.",
+                "Optimize applications for maximum speed and scalability.",
+                "Develop and manage database schemas, ensuring data integrity and security.",
+                "Troubleshoot and debug production issues to ensure uptime and performance.",
+                "Participate in code reviews, ensuring code quality and best practices.",
+                "Keep up-to-date with emerging technologies and trends in backend development."
+            ],
+            "qualifications": [
+                "Proven experience with server-side programming languages (e.g., Node.js, Python, Java, etc.).",
+                "Strong knowledge of database technologies such as PostgreSQL, MySQL, or MongoDB.",
+                "Experience with version control systems like Git.",
+                "Familiarity with containerization (Docker) and cloud platforms (AWS, GCP, or Azure).",
+                "Ability to work in a team and communicate effectively.",
+                "Problem-solving skills and a proactive attitude."
+            ],
+            "jobDescription": "We are looking for a talented and passionate Backend Developer to join our growing team. As a Backend Developer, you will be responsible for designing, building, and maintaining robust server-side applications, APIs, and databases that power our products. Your work will be fundamental to ensuring that our systems are not only functional but also scalable, reliable, and secure. By focusing on high-performance backend systems, you'll be helping deliver a seamless experience for our users. In this role, you will have the opportunity to work with cutting-edge technologies and contribute to the evolution of our software infrastructure. Collaboration will be key, as you will work closely with frontend developers, product managers, and other stakeholders to ensure smooth integration between front-end and back-end systems. You will be expected to write clean, efficient, and well-documented code while also keeping performance optimization and security top of mind. Additionally, you will play an integral role in managing and maintaining the database layer, ensuring data integrity and implementing best practices for data security. Problem-solving will be at the heart of your work, as you'll troubleshoot production issues, optimize system performance, and find innovative solutions to complex challenges. We’re looking for someone who thrives in a fast-paced environment, is eager to learn new technologies, and is committed to building scalable systems. If you are passionate about backend development and want to make an impact on a growing product, we’d love to have you on our team."
         }
     }
 ]

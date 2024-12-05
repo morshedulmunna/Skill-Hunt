@@ -23,7 +23,7 @@ const JobCard: React.FC<any> = ({ job, selectJobId }) => {
   return (
     <>
       <div className="flex justify-between flex-col md:flex-row p-4 items-end md:items-center lg:justify-between group cursor-pointer">
-        <Link prefetch href={`/job-details/${id}`}>
+        <Link prefetch href={`/job-details/?id=${id}`}>
           <div className="flex flex-col lg:flex-row justify-start gap-2 items-start">
             <div className="min-w-20 min-h-20 max-w-20 max-h-20 rounded bg-gray-100">
               <Image
@@ -60,10 +60,10 @@ const JobCard: React.FC<any> = ({ job, selectJobId }) => {
             </div>
           </div>
         </Link>
-        <Link href={`/job-details/${id}`}>
+        <Link href={`/job-details/?id=${id}`}>
           <div className="bg-primary-base mt-6 text-white flex items-center gap-2 px-4 py-2 rounded text-sm">
             <button className="whitespace-nowrap " type="button">
-              Apply Now
+              Job Details
             </button>
             <ArrowSvgIcon className="animate-pulse" />
           </div>
