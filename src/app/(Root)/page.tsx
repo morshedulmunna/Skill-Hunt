@@ -6,7 +6,6 @@ import SearchingSection from "@/components/SearchingSection";
 import { CircularShapes } from "@/components/shapes/CircularShapes";
 import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
-import { SERVER_HOST } from "@/constant";
 
 export default async function Home(): Promise<React.ReactElement> {
   const countriesOptions = (await getLocationList()) as any;

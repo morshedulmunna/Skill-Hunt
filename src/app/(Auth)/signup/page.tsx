@@ -5,7 +5,7 @@ import BoxWrapper from "@/components/shared/BoxWrapper";
 import InputField from "@/components/ui/InputField";
 import Link from "next/link";
 import SelectionOptionDropdown from "@/components/shared/SelectionOptionDropdown";
-import { SERVER_HOST } from "@/constant";
+import { API_URL } from "@/constant";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import Error from "next/error";
@@ -90,7 +90,7 @@ export default function SignupPage({}: Props) {
       // Submit form or make API call
       try {
         setLoading(true);
-        const res: any = await fetch(`${SERVER_HOST}/sign-up`, {
+        const res: any = await fetch(`${API_URL}/api/sign-up`, {
           method: "POST",
           body: JSON.stringify({
             email,

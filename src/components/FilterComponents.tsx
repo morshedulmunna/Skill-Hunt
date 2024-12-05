@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import FilterByCategory from "./ui/FilterByCategory";
 import SearchInput from "./shared/SearchInput";
-import { SERVER_HOST } from "@/constant";
 import { useRouter } from "next/navigation";
 import { generateSearchQueryUrl } from "@/utils";
 

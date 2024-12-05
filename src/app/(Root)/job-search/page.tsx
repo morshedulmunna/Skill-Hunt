@@ -6,7 +6,7 @@ import JobCard from "@/components/JobCard";
 import JobSearchPagination from "@/components/JobSearchPagination";
 import BoxWrapper from "@/components/shared/BoxWrapper";
 import MaxWidthWrapper from "@/components/shared/MaxWidthWrapper";
-import { SERVER_HOST } from "@/constant";
+import { API_URL } from "@/constant";
 import { NextPage } from "next";
 
 type Props = {
@@ -22,7 +22,7 @@ const JobSearchPage: NextPage<Props> = async ({ searchParams }) => {
     .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
   const queryParams = new URLSearchParams(params).toString();
 
-  const url = `${SERVER_HOST}/jobs/get-jobs?${queryParams}`;
+  const url = `${API_URL}/api/jobs/get-jobs?${queryParams}`;
 
   const { jobList, totalCount } = (await getJobListFn(url)) as {
     jobList: any[];

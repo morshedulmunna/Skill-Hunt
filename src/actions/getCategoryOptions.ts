@@ -1,10 +1,10 @@
-import { SERVER_HOST } from "@/constant";
+import { API_URL } from "@/constant";
 
 let categoriesOptions = [] as any;
 
 export async function getCategoriesFn() {
   try {
-    const res = await fetch(`${SERVER_HOST}/categoris-list`);
+    const res = await fetch(`${API_URL}/api/categoris-list`);
     const categoriesResponse = (await res.json()) as any;
     categoriesOptions = categoriesResponse.results.categoriesListOption;
   } catch (error) {
