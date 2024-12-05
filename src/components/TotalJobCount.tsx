@@ -35,7 +35,7 @@ export default function TotalJobCount({
       </div>
 
       <div
-        className={`fixed dark:bg-gray-950 bg-white border p-4 ${
+        className={`fixed dark:bg-background bg-white border dark:border-gray-800 p-4 ${
           toggleFilter ? "bottom-0" : "-bottom-[100%]"
         } w-full transition-all left-0 z-40 shadow-md ease-in-out duration-300 lg:hidden`}
       >
