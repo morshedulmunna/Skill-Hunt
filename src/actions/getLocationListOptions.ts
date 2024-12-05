@@ -3,7 +3,9 @@ let countriesOptions = [] as [];
 
 export const getLocationList = async () => {
   try {
-    const countries = await fetch(`${SERVER_HOST}/location-list`);
+    const countries = await fetch(`${SERVER_HOST}/location-list`, {
+      cache: "no-store",
+    });
     const response = (await countries.json()) as any;
     countriesOptions = response.results.locationOption;
   } catch (error) {
