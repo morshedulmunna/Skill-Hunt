@@ -2,7 +2,9 @@ let jobList = [] as any;
 let totalCount = 0;
 
 async function fetchData(url: string) {
-  const response = await fetch(url);
+  const response = await fetch(url, {
+    cache: "no-store",
+  });
   const data = await response.json();
   return data;
 }
