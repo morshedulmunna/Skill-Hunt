@@ -12,4 +12,6 @@ export async function getCategoriesFn() {
     categoriesOptions = [];
   }
   return categoriesOptions;
+
+  ///---
 }
