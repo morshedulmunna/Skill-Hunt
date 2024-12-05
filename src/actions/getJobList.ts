@@ -3,7 +3,7 @@ let totalCount = 0;
 
 async function fetchData(url: string) {
   const response = await fetch(url, {
-    cache: "no-store",
+    next: { revalidate: 10 },
   });
   const data = await response.json();
   return data;

@@ -3,7 +3,9 @@ let countriesOptions = [] as [];
 
 export const getLocationList = async () => {
   try {
-    const countries = await fetch(`${API_URL}/api/location-list`);
+    const countries = await fetch(`${API_URL}/api/location-list`, {
+      next: { revalidate: 10 },
+    });
     const response = (await countries.json()) as any;
     countriesOptions = response.results.locationOption;
   } catch (error) {
