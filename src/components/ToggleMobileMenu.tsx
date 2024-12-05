@@ -85,7 +85,7 @@ export default function ToggleMobileMenu({ className }: Props) {
           </div>
         </div>
         <div className="flex w-full justify-center items-center">
-          <button
+          <div
             onClick={() => {
               clearLocalStorage();
               deleteAllCookies();
@@ -94,8 +94,8 @@ export default function ToggleMobileMenu({ className }: Props) {
             className=" flex justify-center gap-2 px-6  rounded-md border w-fit items-center text-red-500  font-semibold py-2"
           >
             <LogOut className="animate-pulse" />
-            Sign out
-          </button>
+            <p> Sign out</p>
+          </div>
         </div>
       </div>
     </div>
