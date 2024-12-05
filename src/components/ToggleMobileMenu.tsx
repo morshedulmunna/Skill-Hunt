@@ -96,6 +96,7 @@ export default function ToggleMobileMenu({ className }: Props) {
               onClick={() => {
                 clearLocalStorage();
                 deleteAllCookies();
+                setIsOpen(false);
                 window.location.href = "/signin";
               }}
               className=" flex justify-center gap-2 px-6  rounded-md border dark:border-gray-800 w-fit items-center text-red-500  font-semibold py-2"
@@ -105,6 +106,7 @@ export default function ToggleMobileMenu({ className }: Props) {
             </div>
           ) : (
             <Link
+              onClick={() => setIsOpen(false)}
               href={"/signin"}
               className=" flex justify-center gap-2 px-6  rounded-md border dark:border-gray-800 w-fit items-center text-primary-base  font-semibold py-2"
             >
