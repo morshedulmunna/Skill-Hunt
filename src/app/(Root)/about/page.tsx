@@ -57,7 +57,7 @@ const page = (props: Props) => {
         </div>
       </div>
 
-      <div className="bg-gray-100 border dark:bg-[#111b21]  py-12">
+      <div className="bg-gray-100 border dark:border-gray-800  dark:bg-[#111b21]  py-12">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-xl font-extrabold sm:text-2xl">
             Join Us in the Journey
