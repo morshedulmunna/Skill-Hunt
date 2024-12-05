@@ -22,7 +22,12 @@ export async function POST(request: Request) {
     });
   }
 
-  const response = null;
+  const response = {
+    success: true,
+    statusCode: 200,
+    message: "User signed in successfully",
+    results: null,
+  };
 
   return NextResponse.json(response);
 }
