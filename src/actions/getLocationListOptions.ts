@@ -3,7 +3,7 @@ let countriesOptions = [] as [];
 
 export const getLocationList = async () => {
   try {
-    const countries = await fetch(`${API_URL}/api/location-list`, {
+    const countries = await fetch(`${API_URL}/api/location_list`, {
       cache: "no-cache",
       next: { revalidate: 60 },
     });
