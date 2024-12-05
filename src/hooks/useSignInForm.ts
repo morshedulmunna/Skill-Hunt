@@ -2,6 +2,7 @@ import { useState } from "react";
 import { API_URL } from "@/constant";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
+import Cookies from "js-cookie";
 
 export default function useSignInForm() {
   const [email, setEmail] = useState("");
@@ -72,6 +73,7 @@ export default function useSignInForm() {
         console.log(response);
         if (response.results) {
           localStorage.setItem("token", response.results.token);
+          Cookies.set("authToken", response.results.token);
           localStorage.setItem(
             "user",
             JSON.stringify({
