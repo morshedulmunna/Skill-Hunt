@@ -88,7 +88,7 @@ const useSignup = () => {
     setErrors({});
     try {
       setLoading(true);
-      const res: any = await fetch(`${API_URL}/api/user/sign-up`, {
+      const res: any = await fetch(`${API_URL}/api/user/sign_up`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
