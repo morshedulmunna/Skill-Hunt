@@ -12,6 +12,8 @@ export default async function Home(): Promise<React.ReactElement> {
   const countriesOptions = (await getLocationList()) as any;
   const categoriesOptions = (await getCategoriesFn()) as any;
 
+  //sd
+
   return (
     <div className="w-full h-full">
       <div className="h-auto  relative overflow-hidden">
