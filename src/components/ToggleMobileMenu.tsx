@@ -41,7 +41,7 @@ export default function ToggleMobileMenu({ className }: Props) {
       {/* Mobile Menu */}
       <div
         ref={ref}
-        className={`absolute top-16 flex justify-between flex-col right-0 w-full md:w-1/3 p-2 h-[50vh] md:h-[50vh] bg-white dark:bg-background dark:border-gray-800 shadow border  transform transition-transform duration-300 ease-in-out ${
+        className={`absolute top-16 flex justify-between flex-col right-0 w-full md:w-1/3 p-2 h-[50vh] md:h-[50vh] bg-white dark:bg-background dark:border-gray-800 shadow-sm  transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -96,7 +96,7 @@ export default function ToggleMobileMenu({ className }: Props) {
               deleteAllCookies();
               window.location.href = "/signin";
             }}
-            className=" flex justify-center gap-2 px-6  rounded-md border w-fit items-center text-red-500  font-semibold py-2"
+            className=" flex justify-center gap-2 px-6  rounded-md border dark:border-gray-800 w-fit items-center text-red-500  font-semibold py-2"
           >
             <LogOut className="animate-pulse" />
             <p> Sign out</p>
