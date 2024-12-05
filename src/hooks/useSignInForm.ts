@@ -58,7 +58,7 @@ export default function useSignInForm() {
 
     try {
       setLoading(true);
-      const res = await fetch(`${API_URL}/api/sign-in`, {
+      const res = await fetch(`${API_URL}/api/user/sign-in`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
