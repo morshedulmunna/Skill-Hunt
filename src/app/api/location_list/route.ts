@@ -1,5 +1,4 @@
 import { getJobList } from "@/actions/action";
-import { ApiResponse } from "@/utils/apiResponse";
 import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {

@@ -8,7 +8,6 @@ import React, { useEffect, useState } from "react";
 
 const ScrollingItems = () => {
   const [jobData, setJobData] = useState([]);
-  console.log(jobData);
   const url = `${API_URL}/api/jobs/get-jobs?limit={${8}}`;
   useEffect(() => {
     const fetchData = async () => {

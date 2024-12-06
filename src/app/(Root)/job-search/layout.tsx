@@ -1,4 +1,3 @@
-import Navbar from "@/components/shared/Navbar";
 import JobCardSkeleton from "@/components/skeleton/JobCardSkeleton";
 import React, { Suspense } from "react";
 

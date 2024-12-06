@@ -198,7 +198,6 @@ export const deleteJobById = async (
       "job-data.json"
     );
 
-    // Fetch the current job list
     const jobListResponse = await getJobList();
 
     if (!jobListResponse.success) {

@@ -11,7 +11,6 @@ export default function useSignInForm() {
     {}
   );
   const [loading, setLoading] = useState(false);
-  const router = useRouter();
 
   const validateEmail = (email: string) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -70,7 +69,6 @@ export default function useSignInForm() {
 
       if (res.ok) {
         toast.success(response.message || "Signed in successfully!");
-        console.log(response);
         if (response.results) {
           localStorage.setItem("token", response.results.token);
           Cookies.set("authToken", response.results.token);

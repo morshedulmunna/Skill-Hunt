@@ -34,7 +34,6 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
-
 .wrapper {
   width: 90%;
   max-width: 1536px;
@@ -54,25 +53,25 @@ body {
 
 @keyframes scrollLeft {
   to {
-    left: -300px; 
+    left: -300px;
   }
 }
 
 .item {
-  width: 300px; 
+  width: 300px;
   height: 150px;
   border-radius: 6px;
   position: absolute;
-  left: max(calc(300px * 8), 100%); 
+  left: max(calc(300px * 8), 100%);
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-play-state: running; 
+  animation-play-state: running;
 }
 
 .wrapper:hover .item {
-  animation-play-state: paused; 
+  animation-play-state: paused;
 }
 
 .item1 {

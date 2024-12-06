@@ -17,7 +17,6 @@ export default function SignupPage() {
     setConfirmPassword,
     name,
     setName,
-    accountType,
     setAccountType,
     loading,
     errors,
