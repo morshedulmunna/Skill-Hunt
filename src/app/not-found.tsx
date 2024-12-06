@@ -34,10 +34,10 @@ const NotFound: React.FC = () => {
             links:
           </p>
 
-          <div className="flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
+          <div className="flex flex-col lg:flex-row items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
             <button
               onClick={() => router.back()}
-              className="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto hover:bg-gray-100 "
+              className="flex whitespace-nowrap items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto hover:bg-gray-100 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const NotFound: React.FC = () => {
             </button>
 
             <Link href={"/"}>
-              <button className="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 ">
+              <button className=" w-full mt-4 lg:mt-0  whitespace-nowrap px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 ">
                 Take me home
               </button>
             </Link>
