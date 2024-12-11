@@ -45,6 +45,7 @@ const ScrollingItems = () => {
             <div className="flex items-start gap-2">
               <div className="w-12 rounded  h-12 border dark:border-gray-800">
                 <Image
+                  loading="lazy"
                   height={500}
                   width={500}
                   src={each?.company?.logo}
